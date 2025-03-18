@@ -59,9 +59,6 @@ The `generate_data.py` script creates a realistic crime dataset:
 - Distributes crimes across districts and neighborhoods with realistic patterns
 
 ### 2. Core Analysis Engine
-
-![Analysis Engine](https://example.com/analysis-engine.jpg)
-
 The core analysis functionality in `app.py` provides:
 
 - **Data Summary Statistics**: Calculates key metrics like total crimes, violent crimes, and property crimes
