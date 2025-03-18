@@ -1,6 +1,6 @@
 # Crime Rate Analysis & Awareness System
 
-![Project Banner](https://example.com/crime-analysis-banner.jpg)
+![Project Banner](https://raw.githubusercontent.com/vikramdatthb/Crime-Rate-Analysis-Awareness-System/refs/heads/main/images/screenshot_3_18_2025_6-58-58%20AM.png)
 
 ## Project Overview
 
@@ -45,9 +45,6 @@ def categorize_time(hour):
 ## Project Components
 
 ### 1. Data Generation Module
-
-![Data Generation](https://example.com/data-generation.jpg)
-
 The `generate_data.py` script creates a realistic crime dataset:
 
 - Generates synthetic crime data with realistic patterns across urban areas
@@ -78,7 +75,7 @@ The core analysis functionality in `app.py` provides:
 - **Category Analysis**: Identifies correlations between crime types and other factors
 
 ```python
-# Example of the route safety scoring algorithm
+# route safety scoring algorithm
 safety_score = 100
 if nearby_crimes:
     # Reduce score based on number and severity of crimes
@@ -94,7 +91,8 @@ if nearby_crimes:
 
 ### 3. Data Visualization System
 
-![Data Visualization](https://example.com/data-visualization.jpg)
+![Data Visualization](https://raw.githubusercontent.com/vikramdatthb/Crime-Rate-Analysis-Awareness-System/refs/heads/main/images/screenshot_3_18_2025_7-17-37%20AM.png)
+![Data Visualization](https://raw.githubusercontent.com/vikramdatthb/Crime-Rate-Analysis-Awareness-System/refs/heads/main/images/Screenshot%202025-03-18%20080346.png)
 
 The project includes a comprehensive data visualization system:
 
@@ -165,7 +163,7 @@ The web implementation follows a modular architecture:
 4. **Route Analysis Interface**: User-friendly input for location-based safety analysis
 
 ```javascript
-// Example of cluster implementation with Leaflet.js
+//cluster implementation with Leaflet.js
 clusterGroup = L.markerClusterGroup({
     maxClusterRadius: 30,
     iconCreateFunction: function(cluster) {
