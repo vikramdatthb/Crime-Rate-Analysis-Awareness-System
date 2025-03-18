@@ -1,0 +1,651 @@
+CRIME_ID,DATE,TIME,BOROUGH,NEIGHBORHOOD,LATITUDE,LONGITUDE,CATEGORY,CRIME_TYPE,SEVERITY,VICTIMS,PROPERTY_DAMAGE,STREET_ADDRESS,STATUS
+10000,2023-12-08,09:08,Manhattan,Midtown,40.752390802376944,-73.9749857138718,Property Crimes,Arson,7,0,6583,5256 Main St,Under Investigation
+10001,2023-07-29,14:57,Staten Island,St. George,40.64667316968394,-74.08317962719116,Property Crimes,Vandalism,1,0,847,2910 Avenue A,Closed
+10002,2021-04-03,13:53,Bronx,Fordham,40.85256167224337,-73.8834764770845,Property Crimes,Vandalism,1,0,4595,6949 Riverside Dr,Closed
+10003,2023-01-20,14:11,Brooklyn,Brooklyn Heights,40.69996145155592,-74.00318831011408,Property Crimes,Graffiti,2,0,17517,756 Lexington Ave,Closed
+10004,2023-07-13,01:00,Manhattan,Upper West Side,40.793648852816006,-73.98115321778643,Property Crimes,Petty Theft,3,0,1003,6345 Broadway,Suspect Identified
+10005,2022-10-13,20:40,Staten Island,St. George,40.63836809019707,-74.0802151551408,Violent Crimes,Aggravated Assault,5,1,0,5809 Riverside Dr,Under Investigation
+10006,2022-01-19,16:32,Queens,Flushing,40.76403890037284,-73.83597541719604,Violent Crimes,Homicide,7,1,0,7619 Main St,Cold Case
+10007,2022-04-12,13:45,Bronx,Pelham Bay,40.84158987721304,-73.8372571070293,Property Crimes,Carjacking,3,0,2281,9379 Riverside Dr,Under Investigation
+10008,2021-02-12,22:55,Brooklyn,Bushwick,40.69352139968434,-73.91559648077214,Property Crimes,Grand Theft,4,0,1113,5678 1st Ave,Cold Case
+10009,2022-06-25,20:48,Bronx,Fordham,40.86168468876828,-73.88895170862276,Property Crimes,Petty Theft,3,0,237,4042 Avenue A,Under Investigation
+10010,2022-05-11,13:05,Bronx,Mott Haven,40.81125089703803,-73.92948951752625,Property Crimes,Vandalism,6,0,336,3559 Columbus Ave,Unsolved
+10011,2023-02-28,02:22,Bronx,Fordham,40.87037771074507,-73.88148735933851,Violent Crimes,Simple Assault,8,2,0,5918 2nd Ave,Under Investigation
+10012,2023-04-20,13:54,Brooklyn,Bedford-Stuyvesant,40.683292275383465,-73.94984655771988,Violent Crimes,Simple Assault,6,1,0,1549 West End Ave,Under Investigation
+10013,2022-11-19,07:18,Manhattan,Midtown,40.753703049874794,-73.9915592353031,Property Crimes,Commercial Burglary,5,0,3417,3752 Amsterdam Ave,Suspect Identified
+10014,2022-09-01,01:34,Brooklyn,Bedford-Stuyvesant,40.6778877704223,-73.93361359195842,Violent Crimes,Simple Assault,9,1,0,6923 Broadway,Under Investigation
+10015,2021-11-10,10:23,Bronx,Mott Haven,40.81235044568708,-73.92666577847821,Property Crimes,Commercial Burglary,4,0,3670,8503 Park Ave,Under Investigation
+10016,2023-04-17,10:46,Brooklyn,DUMBO,40.70413420558687,-73.99470291088949,Violent Crimes,Aggravated Assault,6,5,0,289 Central Park West,Unsolved
+10017,2023-12-11,04:44,Brooklyn,Brooklyn Heights,40.70130265646722,-73.98481002116871,Property Crimes,Graffiti,5,0,11260,6024 Broadway,Under Investigation
+10018,2021-11-09,03:47,Manhattan,Chelsea,40.74845799957622,-73.99296251529954,Property Crimes,Arson,7,0,463,4559 1st Ave,Under Investigation
+10019,2023-11-20,19:20,Queens,Flushing,40.75931965724838,-73.8408954542218,Property Crimes,Auto Theft,6,0,1967,952 3rd Ave,Suspect Arrested
+10020,2021-12-18,13:30,Brooklyn,Crown Heights,40.667173545793794,-73.94677301936453,Property Crimes,Carjacking,7,0,8822,3927 Lexington Ave,Under Investigation
+10021,2022-10-15,22:23,Queens,Astoria,40.761535066533874,-73.92788130980625,Property Crimes,Petty Theft,3,0,3912,3742 Central Park West,Under Investigation
+10022,2021-09-25,13:43,Bronx,Riverdale,40.882818484499495,-73.90615606038492,Violent Crimes,Domestic Violence,6,1,0,7762 Broadway,Unsolved
+10023,2021-12-23,20:23,Staten Island,Todt Hill,40.611237738732015,-74.09805510461406,Violent Crimes,Armed Robbery,8,1,0,8640 Madison Ave,Under Investigation
+10024,2021-05-11,05:30,Manhattan,Financial District,40.69761044234247,-74.00499077143091,Property Crimes,Arson,6,0,6135,4229 3rd Ave,Unsolved
+10025,2024-02-08,03:58,Queens,Flushing,40.76998014336082,-73.82637459306628,Violent Crimes,Unarmed Robbery,8,1,0,9951 Avenue B,Suspect Arrested
+10026,2023-05-30,05:55,Staten Island,Great Kills,40.551569314570884,-74.1586826188095,Violent Crimes,Simple Assault,5,2,0,2272 West End Ave,Under Investigation
+10027,2021-08-25,01:03,Queens,Forest Hills,40.72096596253655,-73.84918203950295,Violent Crimes,Gang Violence,5,1,0,1482 Amsterdam Ave,Under Investigation
+10028,2023-05-21,05:24,Queens,Flushing,40.76161964643431,-73.83529633355947,Violent Crimes,Domestic Violence,9,1,0,1896 Avenue B,Under Investigation
+10029,2021-09-13,07:43,Manhattan,Harlem,40.814351149427104,-73.93875574514847,Property Crimes,Carjacking,6,0,3195,6197 Park Ave,Under Investigation
+10030,2023-11-29,09:17,Brooklyn,Crown Heights,40.66179188491877,-73.93793510425554,Violent Crimes,Homicide,8,2,0,5495 2nd Ave,Cold Case
+10031,2022-11-26,02:15,Queens,Flushing,40.76662554395139,-73.82638065640091,Violent Crimes,Simple Assault,6,1,0,3608 Madison Ave,Suspect Arrested
+10032,2022-03-08,21:13,Brooklyn,Crown Heights,40.669854656587646,-73.94364917963283,Property Crimes,Grand Theft,7,0,128,2413 1st Ave,Under Investigation
+10033,2022-02-02,00:07,Staten Island,Todt Hill,40.59365782853987,-74.11287141628627,Property Crimes,Graffiti,3,0,5058,645 Main St,Closed
+10034,2022-12-31,02:04,Queens,Jackson Heights,40.75188711962153,-73.8828285861767,Property Crimes,Carjacking,3,0,11906,3211 Main St,Under Investigation
+10035,2023-02-05,05:20,Staten Island,St. George,40.63968584458298,-74.07809234153929,Violent Crimes,Domestic Violence,5,2,0,4740 2nd Ave,Under Investigation
+10036,2023-09-16,06:34,Queens,Forest Hills,40.713075963309834,-73.85426040180342,Violent Crimes,Domestic Violence,6,1,0,5215 Avenue B,Under Investigation
+10037,2021-09-20,21:35,Brooklyn,Bedford-Stuyvesant,40.68042442574508,-73.93320604695315,Property Crimes,Arson,3,0,8254,1762 1st Ave,Closed
+10038,2022-10-09,12:41,Bronx,Pelham Bay,40.85146807513021,-73.82567078819625,Violent Crimes,Domestic Violence,5,2,0,5526 5th Ave,Unsolved
+10039,2022-02-06,08:44,Staten Island,Todt Hill,40.59523140117772,-74.09564882003019,Property Crimes,Graffiti,4,0,3875,9994 Lexington Ave,Suspect Identified
+10040,2021-05-21,01:50,Staten Island,Great Kills,40.56054880310328,-74.14307817400153,Property Crimes,Commercial Burglary,5,0,1913,9880 Madison Ave,Suspect Arrested
+10041,2021-04-23,02:11,Queens,Flushing,40.757601038490556,-73.83724129674916,Property Crimes,Commercial Burglary,7,0,2785,1819 5th Ave,Under Investigation
+10042,2022-08-01,17:30,Staten Island,Great Kills,40.56076029531845,-74.14378538833486,Property Crimes,Commercial Burglary,7,0,34,9421 West End Ave,Suspect Identified
+10043,2023-03-14,17:43,Manhattan,Upper West Side,40.78721494605155,-73.97705177993701,Property Crimes,Vandalism,1,0,1255,3936 1st Ave,Closed
+10044,2023-11-03,05:15,Manhattan,Chelsea,40.73889730734667,-74.00464769657194,Violent Crimes,Simple Assault,6,4,0,8458 Park Ave,Unsolved
+10045,2023-07-08,06:23,Brooklyn,Bushwick,40.690864058640415,-73.92092418756513,Violent Crimes,Aggravated Assault,8,1,0,8756 Riverside Dr,Unsolved
+10046,2023-02-17,18:16,Bronx,Riverdale,40.88727259204759,-73.90276435834558,Property Crimes,Auto Theft,7,0,16410,2645 Lexington Ave,Under Investigation
+10047,2022-07-25,06:06,Manhattan,Chelsea,40.74153564591651,-74.00145502988215,Property Crimes,Auto Theft,2,0,1789,6701 Riverside Dr,Under Investigation
+10048,2022-07-21,18:23,Manhattan,Greenwich Village,40.729596809887546,-74.00686226105292,Violent Crimes,Gang Violence,8,1,0,4672 5th Ave,Closed
+10049,2022-05-06,20:34,Manhattan,Midtown,40.75495358046458,-73.992970424975,Property Crimes,Petty Theft,7,0,1633,91 3rd Ave,Suspect Arrested
+10050,2023-03-24,03:27,Queens,Forest Hills,40.72666531771933,-73.85100876218665,Violent Crimes,Aggravated Assault,5,1,0,9810 2nd Ave,Suspect Identified
+10051,2023-02-04,16:56,Brooklyn,Park Slope,40.67078905520555,-73.97168699091777,Property Crimes,Arson,5,0,1385,6724 Avenue A,Under Investigation
+10052,2022-11-24,23:26,Brooklyn,Williamsburg,40.711542710948116,-73.95186760769342,Property Crimes,Auto Theft,4,0,1356,5820 Broadway,Suspect Arrested
+10053,2022-02-16,10:53,Staten Island,Great Kills,40.55896432697224,-74.15364433734561,Property Crimes,Commercial Burglary,6,0,5002,3515 Avenue B,Suspect Arrested
+10054,2023-06-20,12:07,Manhattan,Harlem,40.814270594215216,-73.9457845063185,Violent Crimes,Domestic Violence,6,1,0,9415 Avenue A,Under Investigation
+10055,2022-12-30,21:21,Bronx,Riverdale,40.896706049911785,-73.91578439870057,Violent Crimes,Aggravated Assault,6,1,0,9437 Columbus Ave,Under Investigation
+10056,2021-02-13,02:25,Bronx,Pelham Bay,40.839615502831094,-73.83128214113624,Property Crimes,Graffiti,1,0,5659,9274 Amsterdam Ave,Suspect Arrested
+10057,2022-02-06,04:04,Staten Island,St. George,40.635031756578556,-74.07605813883401,Violent Crimes,Homicide,5,1,0,9559 Central Park West,Unsolved
+10058,2021-08-07,07:25,Queens,Jackson Heights,40.75850345580819,-73.8895126714199,Property Crimes,Auto Theft,1,0,5871,9731 3rd Ave,Closed
+10059,2021-07-14,19:32,Staten Island,Todt Hill,40.59923470692601,-74.09476540022526,Violent Crimes,Simple Assault,7,1,0,7842 Park Ave,Suspect Identified
+10060,2024-02-26,23:49,Manhattan,Midtown,40.751721327021,-73.99173052957518,Property Crimes,Vandalism,5,0,12930,9323 1st Ave,Cold Case
+10061,2022-12-23,23:34,Staten Island,Todt Hill,40.60904678706762,-74.10834116744569,Property Crimes,Petty Theft,5,0,5393,3389 Central Park West,Unsolved
+10062,2021-04-13,19:55,Bronx,Riverdale,40.89634444400402,-73.911095983768,Property Crimes,Petty Theft,3,0,3771,7640 West End Ave,Cold Case
+10063,2022-06-06,12:33,Manhattan,Financial District,40.70233704581801,-74.01943794464388,Violent Crimes,Simple Assault,9,3,0,6020 1st Ave,Suspect Identified
+10064,2022-10-12,13:29,Manhattan,Greenwich Village,40.74190836114327,-73.99493797085454,Property Crimes,Vandalism,6,0,2070,1067 Central Park West,Under Investigation
+10065,2021-03-15,17:07,Staten Island,St. George,40.64168419149225,-74.0717808864226,Violent Crimes,Aggravated Assault,10,3,0,5248 Park Ave,Under Investigation
+10066,2023-06-11,14:55,Brooklyn,Bushwick,40.7021417284853,-73.91570248908285,Property Crimes,Home Burglary,7,0,5136,3271 Amsterdam Ave,Under Investigation
+10067,2022-07-07,09:27,Brooklyn,Williamsburg,40.6997827992999,-73.9638674257181,Violent Crimes,Simple Assault,6,3,0,6541 Avenue A,Under Investigation
+10068,2021-04-17,21:44,Staten Island,Todt Hill,40.60362858119319,-74.11331605896767,Violent Crimes,Homicide,7,1,0,6137 Avenue A,Under Investigation
+10069,2021-12-17,00:05,Bronx,Fordham,40.86467003538216,-73.90069876832307,Property Crimes,Vandalism,2,0,876,7128 Avenue B,Suspect Arrested
+10070,2021-02-07,03:20,Staten Island,Todt Hill,40.602474675787334,-74.09966209604615,Violent Crimes,Homicide,9,1,0,7117 West End Ave,Suspect Identified
+10071,2021-08-02,11:52,Brooklyn,Bushwick,40.68888538618921,-73.91705641557306,Property Crimes,Vandalism,3,0,1354,3622 2nd Ave,Suspect Arrested
+10072,2023-01-15,14:58,Staten Island,St. George,40.641207993963185,-74.07137017189764,Property Crimes,Grand Theft,2,0,5243,674 Broadway,Unsolved
+10073,2022-10-02,06:55,Manhattan,Chelsea,40.753484468209884,-73.99824774215399,Violent Crimes,Gang Violence,6,1,0,4468 Central Park West,Suspect Arrested
+10074,2024-02-07,15:55,Bronx,Riverdale,40.881873495356565,-73.91484568393881,Property Crimes,Grand Theft,2,0,1540,9096 Central Park West,Unsolved
+10075,2021-08-01,15:56,Brooklyn,Flatbush,40.63577979286758,-73.95223978890495,Property Crimes,Petty Theft,6,0,2496,5951 Lexington Ave,Suspect Arrested
+10076,2023-10-05,05:56,Brooklyn,Flatbush,40.648740931103546,-73.95907722748005,Violent Crimes,Gang Violence,10,2,0,1001 Main St,Under Investigation
+10077,2023-06-01,04:43,Staten Island,St. George,40.644752741862106,-74.07476192230747,Violent Crimes,Simple Assault,5,1,0,2340 Central Park West,Unsolved
+10078,2023-08-23,07:56,Queens,Astoria,40.75830485975596,-73.91905095769478,Violent Crimes,Simple Assault,10,1,0,2514 Main St,Under Investigation
+10079,2022-06-24,10:21,Bronx,Pelham Bay,40.83928631932863,-73.83019055408185,Property Crimes,Carjacking,4,0,974,1233 Lexington Ave,Unsolved
+10080,2022-08-24,16:13,Brooklyn,Flatbush,40.64970917168706,-73.95262142845993,Property Crimes,Vandalism,1,0,12317,3710 Riverside Dr,Suspect Arrested
+10081,2023-03-21,04:00,Manhattan,Chelsea,40.743903174005105,-74.01109086766942,Property Crimes,Home Burglary,1,0,13177,9214 Madison Ave,Under Investigation
+10082,2024-01-03,21:18,Brooklyn,Bushwick,40.69296368296635,-73.91196690361913,Property Crimes,Carjacking,1,0,16568,1343 Madison Ave,Under Investigation
+10083,2022-09-08,01:28,Brooklyn,Park Slope,40.678060189109345,-73.9855110221586,Property Crimes,Graffiti,2,0,2431,6568 1st Ave,Under Investigation
+10084,2022-05-06,17:53,Queens,Long Island City,40.75172273343034,-73.95216155989687,Violent Crimes,Kidnapping,6,1,0,2248 Riverside Dr,Suspect Arrested
+10085,2021-04-12,14:47,Queens,Long Island City,40.74583602524917,-73.93977690451678,Violent Crimes,Simple Assault,6,1,0,3545 Main St,Suspect Identified
+10086,2022-09-25,21:43,Queens,Jamaica,40.703401223401784,-73.81655647012458,Violent Crimes,Gang Violence,6,1,0,6797 3rd Ave,Closed
+10087,2023-08-30,02:22,Staten Island,Todt Hill,40.61130107700209,-74.11069831969526,Violent Crimes,Homicide,8,1,0,5682 Avenue A,Unsolved
+10088,2021-03-20,20:05,Staten Island,Todt Hill,40.60904746143856,-74.09868462764491,Property Crimes,Carjacking,5,0,5970,2209 Madison Ave,Suspect Arrested
+10089,2024-01-24,09:54,Brooklyn,Bedford-Stuyvesant,40.69124968167974,-73.9446101769756,Property Crimes,Home Burglary,2,0,1737,2143 Madison Ave,Under Investigation
+10090,2022-12-04,20:18,Brooklyn,Bedford-Stuyvesant,40.69338722310957,-73.93559773210642,Violent Crimes,Unarmed Robbery,5,3,0,7799 Columbus Ave,Under Investigation
+10091,2023-11-19,01:27,Manhattan,East Village,40.73476481105113,-73.98127315202278,Violent Crimes,Simple Assault,9,1,0,3913 Broadway,Suspect Arrested
+10092,2021-10-12,06:58,Manhattan,Upper East Side,40.779465903579336,-73.95350072138444,Property Crimes,Auto Theft,3,0,6052,3182 3rd Ave,Unsolved
+10093,2022-03-20,15:34,Bronx,Mott Haven,40.81501585338872,-73.91509989316364,Property Crimes,Petty Theft,6,0,2062,6110 West End Ave,Unsolved
+10094,2023-10-16,21:49,Staten Island,Great Kills,40.5519116590528,-74.15912036120318,Violent Crimes,Kidnapping,10,1,0,1678 Park Ave,Suspect Arrested
+10095,2021-04-16,09:09,Staten Island,St. George,40.63541884547593,-74.07698803963736,Property Crimes,Home Burglary,7,0,3911,3675 Broadway,Suspect Identified
+10096,2021-06-27,01:31,Bronx,Riverdale,40.885730825042565,-73.91038333478862,Violent Crimes,Unarmed Robbery,10,1,0,7737 5th Ave,Under Investigation
+10097,2021-09-27,01:17,Bronx,Fordham,40.852146963774985,-73.8843479887868,Violent Crimes,Simple Assault,6,1,0,2460 Madison Ave,Under Investigation
+10098,2022-12-30,10:21,Queens,Forest Hills,40.711041210253036,-73.84535513479891,Property Crimes,Graffiti,3,0,7348,4618 1st Ave,Suspect Identified
+10099,2023-03-28,22:43,Manhattan,Upper East Side,40.767816420549934,-73.95404219048362,Property Crimes,Petty Theft,2,0,446,3265 Columbus Ave,Under Investigation
+10100,2023-01-08,04:53,Queens,Flushing,40.756433634423374,-73.83117290736864,Property Crimes,Auto Theft,7,0,3889,8022 1st Ave,Under Investigation
+10101,2023-02-19,06:30,Bronx,Riverdale,40.89274859802997,-73.90767817332555,Property Crimes,Commercial Burglary,5,0,18617,545 Columbus Ave,Under Investigation
+10102,2021-10-05,14:06,Queens,Long Island City,40.74502600696603,-73.95204087054117,Violent Crimes,Kidnapping,8,2,0,5369 2nd Ave,Under Investigation
+10103,2023-04-17,07:44,Manhattan,East Village,40.721916645025246,-73.98272057158589,Property Crimes,Home Burglary,7,0,408,1135 West End Ave,Under Investigation
+10104,2023-02-17,15:05,Manhattan,Financial District,40.69800701486831,-74.00204703170645,Property Crimes,Petty Theft,3,0,9038,3376 Park Ave,Closed
+10105,2022-12-27,10:42,Brooklyn,Crown Heights,40.673319484121876,-73.94402094111172,Violent Crimes,Kidnapping,9,1,0,3277 2nd Ave,Cold Case
+10106,2023-06-17,06:02,Queens,Forest Hills,40.71162874085342,-73.8507951420367,Property Crimes,Arson,4,0,3983,9061 Madison Ave,Suspect Identified
+10107,2023-11-16,00:05,Staten Island,Todt Hill,40.605791918454,-74.10029605246564,Property Crimes,Grand Theft,7,0,1642,2802 Avenue B,Under Investigation
+10108,2024-01-03,05:17,Queens,Forest Hills,40.727597305613266,-73.84104206166609,Violent Crimes,Simple Assault,8,1,0,9846 5th Ave,Suspect Arrested
+10109,2022-05-04,23:24,Manhattan,Harlem,40.813834414924685,-73.94810799875144,Property Crimes,Graffiti,6,0,1423,7169 Columbus Ave,Unsolved
+10110,2022-08-09,02:30,Manhattan,Upper West Side,40.78411945357303,-73.97024307779071,Violent Crimes,Simple Assault,9,1,0,9682 Avenue A,Unsolved
+10111,2021-09-12,16:25,Queens,Jackson Heights,40.74792145281014,-73.89207994715956,Property Crimes,Graffiti,7,0,207,243 Lexington Ave,Under Investigation
+10112,2021-07-02,09:53,Queens,Astoria,40.771509211680225,-73.9194268428124,Violent Crimes,Armed Robbery,6,1,0,6267 3rd Ave,Under Investigation
+10113,2021-11-26,19:49,Bronx,Fordham,40.85335668321302,-73.89096768249766,Violent Crimes,Unarmed Robbery,7,1,0,5071 5th Ave,Unsolved
+10114,2023-01-17,22:23,Manhattan,Financial District,40.7009640373982,-74.01262296701525,Violent Crimes,Kidnapping,7,1,0,7503 Madison Ave,Under Investigation
+10115,2023-09-04,01:48,Manhattan,Midtown,40.757217001961045,-73.98129812698264,Property Crimes,Commercial Burglary,2,0,231,1416 West End Ave,Closed
+10116,2022-09-21,08:14,Queens,Jackson Heights,40.75309225229253,-73.88048280168572,Violent Crimes,Domestic Violence,6,1,0,8999 Avenue B,Under Investigation
+10117,2022-07-15,22:17,Queens,Long Island City,40.75182979682377,-73.94532612736762,Property Crimes,Grand Theft,6,0,889,4722 Riverside Dr,Suspect Arrested
+10118,2023-12-07,07:04,Staten Island,Great Kills,40.54581137494801,-74.14815161443587,Property Crimes,Graffiti,2,0,134,1318 Madison Ave,Suspect Identified
+10119,2022-02-12,12:49,Manhattan,Financial District,40.70921551162547,-74.00249539517151,Property Crimes,Commercial Burglary,6,0,4283,4555 Main St,Suspect Identified
+10120,2023-05-24,23:08,Brooklyn,Brooklyn Heights,40.69356339852413,-73.99073423563115,Property Crimes,Graffiti,1,0,3064,3064 1st Ave,Cold Case
+10121,2022-04-21,07:29,Brooklyn,Bushwick,40.69531233578632,-73.91247070382447,Violent Crimes,Kidnapping,9,1,0,4177 Avenue A,Suspect Arrested
+10122,2021-11-07,21:57,Bronx,Riverdale,40.89922381127648,-73.90409298716088,Property Crimes,Graffiti,5,0,1089,8244 5th Ave,Under Investigation
+10123,2021-08-08,03:31,Staten Island,Great Kills,40.5457872260175,-74.15898443997244,Violent Crimes,Kidnapping,8,1,0,4449 Avenue B,Suspect Identified
+10124,2023-04-20,04:45,Brooklyn,DUMBO,40.69508885921512,-73.98473986453168,Violent Crimes,Aggravated Assault,8,1,0,2766 Avenue A,Suspect Arrested
+10125,2023-11-22,01:51,Queens,Forest Hills,40.714879512605876,-73.83890249378061,Property Crimes,Auto Theft,5,0,117,3929 Amsterdam Ave,Under Investigation
+10126,2022-11-29,22:34,Bronx,Pelham Bay,40.85508936965178,-73.83746290450453,Violent Crimes,Unarmed Robbery,8,1,0,9986 Riverside Dr,Unsolved
+10127,2023-05-17,01:08,Staten Island,St. George,40.648634743307284,-74.0737211430644,Violent Crimes,Aggravated Assault,6,3,0,7883 Columbus Ave,Unsolved
+10128,2023-01-03,02:38,Queens,Flushing,40.770101420876074,-73.8257303813923,Property Crimes,Petty Theft,2,0,1656,6062 3rd Ave,Under Investigation
+10129,2021-09-24,06:46,Bronx,Fordham,40.854948790875596,-73.88578770496719,Property Crimes,Grand Theft,5,0,8221,540 3rd Ave,Under Investigation
+10130,2021-01-21,12:27,Bronx,Riverdale,40.899810102840014,-73.91394764646176,Violent Crimes,Domestic Violence,9,1,0,9093 Avenue A,Suspect Identified
+10131,2023-04-03,04:28,Queens,Astoria,40.76992825921484,-73.92668392919495,Violent Crimes,Domestic Violence,7,4,0,4348 Amsterdam Ave,Under Investigation
+10132,2021-10-09,00:35,Staten Island,Great Kills,40.56156825503686,-74.1524201194525,Violent Crimes,Domestic Violence,6,2,0,8645 Park Ave,Closed
+10133,2022-09-26,00:49,Queens,Long Island City,40.74979085748169,-73.95643752262328,Property Crimes,Commercial Burglary,3,0,11642,8738 Broadway,Suspect Identified
+10134,2023-06-20,14:27,Staten Island,Todt Hill,40.601605047448956,-74.09697085067785,Property Crimes,Vandalism,1,0,1928,9766 Riverside Dr,Under Investigation
+10135,2022-03-11,11:17,Bronx,Fordham,40.86931046456993,-73.89301596642531,Property Crimes,Petty Theft,3,0,54,4996 Main St,Unsolved
+10136,2023-07-17,18:06,Staten Island,St. George,40.65280763952838,-74.08447426646428,Violent Crimes,Armed Robbery,7,1,0,1254 2nd Ave,Suspect Arrested
+10137,2024-02-18,20:31,Bronx,Riverdale,40.89900123934102,-73.90318785706124,Violent Crimes,Simple Assault,9,1,0,9792 2nd Ave,Unsolved
+10138,2021-06-16,02:01,Brooklyn,Brooklyn Heights,40.698436744243395,-73.99463108956043,Violent Crimes,Gang Violence,6,1,0,6413 Avenue B,Suspect Identified
+10139,2022-06-04,00:30,Queens,Jackson Heights,40.7521732909074,-73.87954963087846,Violent Crimes,Gang Violence,7,2,0,6288 Main St,Unsolved
+10140,2022-06-04,01:38,Queens,Flushing,40.77123158087451,-73.82600763714412,Violent Crimes,Homicide,9,1,0,6545 Avenue A,Unsolved
+10141,2023-08-05,18:09,Staten Island,St. George,40.64458840609405,-74.08514882479967,Property Crimes,Carjacking,5,0,3987,8078 Broadway,Suspect Arrested
+10142,2022-05-18,06:20,Queens,Jamaica,40.70083061002747,-73.80074591634482,Violent Crimes,Homicide,10,1,0,7352 Lexington Ave,Closed
+10143,2023-10-04,00:35,Manhattan,Upper East Side,40.76584134032855,-73.96364016635894,Property Crimes,Commercial Burglary,4,0,7167,5552 1st Ave,Suspect Arrested
+10144,2022-05-28,02:04,Staten Island,Great Kills,40.556764361266325,-74.15897754647754,Violent Crimes,Simple Assault,5,1,0,6446 Avenue A,Unsolved
+10145,2021-02-11,12:56,Queens,Astoria,40.76841938262918,-73.93204473987272,Property Crimes,Petty Theft,2,0,8625,334 3rd Ave,Under Investigation
+10146,2023-11-29,08:41,Staten Island,St. George,40.64882484454313,-74.08467302438717,Property Crimes,Graffiti,5,0,443,6065 West End Ave,Under Investigation
+10147,2024-01-13,18:38,Staten Island,St. George,40.654432791570024,-74.07881458408488,Violent Crimes,Kidnapping,8,1,0,5747 Park Ave,Cold Case
+10148,2022-11-30,05:57,Staten Island,Todt Hill,40.60775599134515,-74.09455502845232,Violent Crimes,Unarmed Robbery,9,6,0,2632 Avenue A,Suspect Identified
+10149,2022-04-14,15:06,Queens,Astoria,40.76946756370518,-73.92597480828938,Violent Crimes,Aggravated Assault,9,1,0,1202 Park Ave,Under Investigation
+10150,2021-07-28,15:53,Staten Island,St. George,40.65024293831855,-74.07513191500529,Property Crimes,Petty Theft,2,0,2760,976 Lexington Ave,Suspect Arrested
+10151,2022-01-29,08:40,Brooklyn,Williamsburg,40.716227087701895,-73.96487605035388,Property Crimes,Commercial Burglary,1,0,3392,5214 Columbus Ave,Suspect Arrested
+10152,2022-06-23,06:03,Queens,Jackson Heights,40.74582707289535,-73.88362678716011,Property Crimes,Petty Theft,3,0,289,8743 Madison Ave,Closed
+10153,2021-07-21,05:32,Manhattan,Financial District,40.69987635832536,-74.01894947506446,Violent Crimes,Armed Robbery,10,1,0,1603 West End Ave,Unsolved
+10154,2022-01-16,08:26,Manhattan,Harlem,40.816520897585306,-73.94483262469805,Violent Crimes,Domestic Violence,8,4,0,2546 Avenue A,Suspect Identified
+10155,2023-09-08,00:23,Brooklyn,Williamsburg,40.705597411590475,-73.96138575827436,Property Crimes,Carjacking,6,0,10147,9082 Columbus Ave,Under Investigation
+10156,2022-08-07,13:33,Brooklyn,Flatbush,40.63537191677039,-73.95243554921119,Violent Crimes,Unarmed Robbery,7,1,0,6219 West End Ave,Under Investigation
+10157,2021-09-01,15:24,Manhattan,Harlem,40.820997576534154,-73.95563680176099,Property Crimes,Arson,2,0,11088,272 1st Ave,Under Investigation
+10158,2023-04-01,07:31,Brooklyn,Crown Heights,40.66995402218173,-73.93234070407762,Violent Crimes,Armed Robbery,9,1,0,7619 West End Ave,Closed
+10159,2021-04-13,07:48,Staten Island,St. George,40.645777085688024,-74.06691394928762,Property Crimes,Vandalism,6,0,3702,8550 Lexington Ave,Under Investigation
+10160,2023-02-27,15:49,Brooklyn,Bedford-Stuyvesant,40.6897879727627,-73.93788502622031,Property Crimes,Petty Theft,1,0,3030,5687 Avenue B,Under Investigation
+10161,2023-10-12,09:07,Bronx,Mott Haven,40.81165116160168,-73.92121371376153,Violent Crimes,Kidnapping,6,3,0,5352 5th Ave,Closed
+10162,2021-08-01,18:24,Bronx,Pelham Bay,40.83970892760683,-73.83748073620816,Violent Crimes,Gang Violence,9,4,0,9427 Main St,Unsolved
+10163,2021-04-29,01:39,Queens,Flushing,40.77320527567782,-73.83268686494429,Property Crimes,Vandalism,4,0,4839,6580 Lexington Ave,Unsolved
+10164,2022-04-27,21:50,Bronx,Pelham Bay,40.84434762365962,-73.83933757680553,Property Crimes,Petty Theft,7,0,3115,5295 1st Ave,Suspect Arrested
+10165,2022-09-27,12:09,Queens,Jackson Heights,40.752667044560525,-73.88132687776297,Violent Crimes,Armed Robbery,8,1,0,3551 Park Ave,Under Investigation
+10166,2022-07-02,13:24,Staten Island,Todt Hill,40.610987896153325,-74.09377578511041,Property Crimes,Vandalism,3,0,5989,259 2nd Ave,Suspect Arrested
+10167,2023-02-06,09:37,Staten Island,Great Kills,40.55512192732689,-74.15480944767427,Property Crimes,Grand Theft,4,0,8404,4201 Lexington Ave,Under Investigation
+10168,2021-01-26,02:26,Queens,Jackson Heights,40.759294623451076,-73.8897476612131,Property Crimes,Petty Theft,6,0,12091,6499 Riverside Dr,Unsolved
+10169,2023-02-12,19:16,Brooklyn,Brooklyn Heights,40.70225074485846,-73.98460400173417,Property Crimes,Grand Theft,6,0,6468,5212 Central Park West,Under Investigation
+10170,2023-01-16,01:42,Bronx,Mott Haven,40.81136830391872,-73.92453513927418,Property Crimes,Graffiti,7,0,13495,7419 Madison Ave,Under Investigation
+10171,2021-01-08,22:17,Brooklyn,Bushwick,40.70172127779001,-73.93039562659789,Property Crimes,Vandalism,1,0,133,5340 Avenue A,Suspect Arrested
+10172,2022-10-14,19:04,Bronx,Fordham,40.858929267337565,-73.88458893338436,Property Crimes,Vandalism,4,0,21821,4583 Avenue A,Suspect Identified
+10173,2023-06-26,23:38,Staten Island,Todt Hill,40.59450833782207,-74.10161738569296,Violent Crimes,Domestic Violence,7,1,0,3702 Columbus Ave,Suspect Identified
+10174,2022-01-14,16:47,Bronx,Fordham,40.8707982879563,-73.88395762153729,Property Crimes,Commercial Burglary,5,0,9110,9248 5th Ave,Suspect Arrested
+10175,2022-09-02,19:17,Manhattan,Midtown,40.7542738631959,-73.98570360995325,Property Crimes,Petty Theft,7,0,1596,4365 West End Ave,Unsolved
+10176,2022-03-16,06:23,Brooklyn,Bushwick,40.68552750993302,-73.9140055524749,Violent Crimes,Domestic Violence,5,2,0,9563 Avenue B,Under Investigation
+10177,2021-01-25,03:17,Queens,Long Island City,40.75469435346572,-73.93856726325852,Violent Crimes,Gang Violence,9,1,0,7437 Avenue B,Suspect Identified
+10178,2024-01-25,16:05,Bronx,Pelham Bay,40.85417974830361,-73.82420468540235,Property Crimes,Arson,1,0,9473,5808 Columbus Ave,Unsolved
+10179,2023-05-23,23:41,Manhattan,Financial District,40.70244696203487,-74.0122891172938,Property Crimes,Auto Theft,5,0,691,3727 Broadway,Suspect Arrested
+10180,2022-07-15,12:16,Manhattan,Midtown,40.763981020545174,-73.98187650731097,Violent Crimes,Armed Robbery,7,1,0,8080 West End Ave,Under Investigation
+10181,2021-12-10,01:46,Staten Island,St. George,40.648134013688114,-74.07393743519084,Violent Crimes,Gang Violence,8,1,0,7216 Central Park West,Suspect Arrested
+10182,2022-05-21,18:18,Queens,Jamaica,40.69427115184399,-73.80506853608814,Violent Crimes,Gang Violence,9,1,0,1117 Main St,Under Investigation
+10183,2021-04-09,20:11,Staten Island,St. George,40.650146367834715,-74.07589672997776,Violent Crimes,Kidnapping,5,2,0,520 5th Ave,Under Investigation
+10184,2021-07-21,05:28,Manhattan,Harlem,40.81263813677549,-73.94528124056929,Violent Crimes,Unarmed Robbery,6,3,0,4548 5th Ave,Suspect Identified
+10185,2022-02-11,05:01,Bronx,Riverdale,40.88806965732425,-73.91951969543099,Violent Crimes,Gang Violence,9,1,0,5318 Amsterdam Ave,Suspect Identified
+10186,2021-06-08,04:03,Manhattan,East Village,40.73160274511348,-73.97909380897293,Property Crimes,Arson,4,0,6088,9586 Columbus Ave,Closed
+10187,2024-01-25,07:53,Brooklyn,Bedford-Stuyvesant,40.681459283230176,-73.94907257048827,Violent Crimes,Simple Assault,7,1,0,5943 Avenue A,Unsolved
+10188,2021-03-16,03:29,Manhattan,Harlem,40.80861175117613,-73.94470164626291,Violent Crimes,Gang Violence,7,1,0,3814 Amsterdam Ave,Suspect Arrested
+10189,2021-04-09,23:43,Staten Island,Todt Hill,40.600249498440476,-74.09541682611012,Property Crimes,Auto Theft,5,0,2140,8776 Avenue B,Unsolved
+10190,2022-07-25,23:24,Brooklyn,Brooklyn Heights,40.6960797897832,-73.98792693974518,Property Crimes,Grand Theft,4,0,2525,631 1st Ave,Closed
+10191,2021-02-23,22:12,Queens,Jackson Heights,40.75804173400456,-73.87575272582507,Property Crimes,Grand Theft,5,0,14930,5570 Avenue B,Unsolved
+10192,2023-05-03,02:58,Brooklyn,Bedford-Stuyvesant,40.680141469618576,-73.93326824749677,Violent Crimes,Kidnapping,5,1,0,2470 3rd Ave,Suspect Arrested
+10193,2023-02-19,09:58,Staten Island,Todt Hill,40.59666488776598,-74.10431728487524,Violent Crimes,Armed Robbery,8,5,0,1475 Madison Ave,Under Investigation
+10194,2021-01-12,18:07,Brooklyn,Bedford-Stuyvesant,40.68705236187986,-73.94522496779425,Violent Crimes,Domestic Violence,5,1,0,1499 1st Ave,Suspect Arrested
+10195,2022-07-21,05:30,Bronx,Pelham Bay,40.84360291237556,-73.84158273343783,Violent Crimes,Domestic Violence,6,1,0,6607 West End Ave,Unsolved
+10196,2022-09-28,09:44,Brooklyn,Crown Heights,40.66196091677916,-73.94916194612975,Property Crimes,Home Burglary,5,0,747,7568 Broadway,Under Investigation
+10197,2024-01-10,04:57,Queens,Forest Hills,40.72131749489606,-73.85216239831202,Violent Crimes,Gang Violence,10,1,0,1980 3rd Ave,Under Investigation
+10198,2021-10-15,01:11,Queens,Jackson Heights,40.763535768198125,-73.88352076719474,Violent Crimes,Unarmed Robbery,9,1,0,8259 Avenue B,Closed
+10199,2023-05-21,22:56,Bronx,Pelham Bay,40.84224639742403,-73.83925421962383,Property Crimes,Petty Theft,5,0,208,732 Avenue A,Closed
+10200,2022-02-23,14:16,Manhattan,Upper West Side,40.78037870126144,-73.97982819321935,Violent Crimes,Gang Violence,10,1,0,9567 Lexington Ave,Under Investigation
+10201,2021-10-24,16:12,Brooklyn,Williamsburg,40.69987405067514,-73.96468728257798,Violent Crimes,Aggravated Assault,8,1,0,1956 1st Ave,Suspect Arrested
+10202,2023-01-14,11:08,Staten Island,Todt Hill,40.59562667436812,-74.10621460277903,Property Crimes,Arson,7,0,3500,6905 Columbus Ave,Under Investigation
+10203,2021-12-02,10:50,Bronx,Pelham Bay,40.852607896572586,-73.84231375720319,Violent Crimes,Unarmed Robbery,10,2,0,256 Columbus Ave,Closed
+10204,2021-04-16,02:56,Queens,Jamaica,40.704558007789814,-73.81686481936102,Property Crimes,Graffiti,6,0,10340,3553 1st Ave,Closed
+10205,2022-03-11,21:17,Bronx,Mott Haven,40.81751744801064,-73.9316784408029,Property Crimes,Graffiti,4,0,1620,9817 1st Ave,Suspect Arrested
+10206,2023-06-29,18:28,Staten Island,St. George,40.65082402559586,-74.07133480619233,Property Crimes,Petty Theft,4,0,1019,236 Riverside Dr,Unsolved
+10207,2022-11-07,11:42,Staten Island,Great Kills,40.54858698646674,-74.15359055794417,Violent Crimes,Armed Robbery,8,1,0,8974 Central Park West,Cold Case
+10208,2022-01-10,15:39,Brooklyn,Brooklyn Heights,40.6981650954306,-73.9962217272086,Violent Crimes,Domestic Violence,8,1,0,9392 Central Park West,Closed
+10209,2023-11-03,02:30,Staten Island,Great Kills,40.55934941876268,-74.16026633594218,Property Crimes,Vandalism,4,0,1454,3710 5th Ave,Closed
+10210,2023-04-24,14:12,Brooklyn,Brooklyn Heights,40.70006699171769,-73.98569586324626,Property Crimes,Auto Theft,1,0,3583,5454 5th Ave,Unsolved
+10211,2023-04-27,19:45,Staten Island,St. George,40.64534226970531,-74.0841565597732,Violent Crimes,Domestic Violence,7,1,0,4731 1st Ave,Under Investigation
+10212,2021-04-22,04:39,Staten Island,Great Kills,40.5550523453291,-74.15615058992731,Violent Crimes,Unarmed Robbery,5,1,0,7371 Park Ave,Suspect Identified
+10213,2023-05-14,16:34,Brooklyn,DUMBO,40.70074568326209,-73.99799857604444,Violent Crimes,Homicide,6,1,0,4137 Madison Ave,Unsolved
+10214,2022-01-18,21:13,Queens,Jackson Heights,40.74982896013993,-73.88645005295643,Violent Crimes,Kidnapping,5,1,0,4816 Lexington Ave,Under Investigation
+10215,2023-04-02,19:37,Queens,Jackson Heights,40.763410545614796,-73.88112815092892,Violent Crimes,Gang Violence,9,1,0,7164 Amsterdam Ave,Suspect Identified
+10216,2022-06-12,09:15,Queens,Forest Hills,40.724283424772146,-73.84583115602142,Violent Crimes,Gang Violence,5,1,0,2648 Amsterdam Ave,Closed
+10217,2021-09-24,02:32,Manhattan,Upper West Side,40.78774213083637,-73.97366317763958,Property Crimes,Auto Theft,4,0,6841,7844 Avenue A,Unsolved
+10218,2021-01-30,17:22,Bronx,Mott Haven,40.807733190924594,-73.93034839394409,Property Crimes,Arson,4,0,1668,2483 West End Ave,Closed
+10219,2021-02-27,02:41,Queens,Long Island City,40.74196164592797,-73.94558165517337,Property Crimes,Auto Theft,4,0,4228,995 3rd Ave,Under Investigation
+10220,2021-05-16,09:21,Brooklyn,Williamsburg,40.70522193451796,-73.94736969502414,Violent Crimes,Aggravated Assault,7,1,0,6732 3rd Ave,Suspect Identified
+10221,2022-07-06,04:02,Bronx,Fordham,40.85614453583472,-73.8987643505476,Violent Crimes,Unarmed Robbery,6,1,0,8342 West End Ave,Suspect Arrested
+10222,2022-11-02,21:45,Bronx,Fordham,40.85631915456769,-73.8975863725348,Property Crimes,Grand Theft,7,0,1032,8169 Madison Ave,Suspect Identified
+10223,2021-03-24,07:31,Bronx,Fordham,40.85710190337388,-73.8973325280941,Property Crimes,Arson,3,0,11353,8605 Avenue A,Suspect Identified
+10224,2021-01-04,17:55,Queens,Jamaica,40.69360467491323,-73.80800977220859,Violent Crimes,Aggravated Assault,10,1,0,6925 Avenue B,Suspect Identified
+10225,2023-03-24,14:13,Manhattan,Chelsea,40.75614757233817,-74.00915922195664,Property Crimes,Arson,4,0,2536,7910 3rd Ave,Suspect Arrested
+10226,2024-02-27,11:46,Bronx,Pelham Bay,40.8581894086655,-73.82578985748212,Property Crimes,Graffiti,7,0,8493,1287 Park Ave,Suspect Arrested
+10227,2023-02-28,23:03,Staten Island,Great Kills,40.5495580565409,-74.1575822482522,Violent Crimes,Unarmed Robbery,8,1,0,9579 Main St,Suspect Identified
+10228,2021-12-03,11:59,Brooklyn,Williamsburg,40.71668751978255,-73.95596474213971,Violent Crimes,Domestic Violence,5,1,0,965 Avenue A,Under Investigation
+10229,2022-06-25,22:21,Staten Island,Great Kills,40.54999958187321,-74.14561014133616,Violent Crimes,Unarmed Robbery,9,1,0,6177 2nd Ave,Unsolved
+10230,2021-05-19,04:20,Queens,Forest Hills,40.714973584728085,-73.84729127122768,Property Crimes,Commercial Burglary,1,0,3542,6773 Madison Ave,Suspect Arrested
+10231,2023-09-14,16:50,Brooklyn,Flatbush,40.6357481946483,-73.96940326350521,Violent Crimes,Domestic Violence,8,1,0,9124 3rd Ave,Suspect Arrested
+10232,2023-08-07,05:36,Brooklyn,Bedford-Stuyvesant,40.682972611064805,-73.94017523557154,Violent Crimes,Kidnapping,6,1,0,9017 1st Ave,Suspect Arrested
+10233,2023-02-21,05:14,Queens,Astoria,40.7640228020371,-73.92284821134898,Violent Crimes,Homicide,5,1,0,1259 Lexington Ave,Under Investigation
+10234,2023-11-10,07:38,Bronx,Pelham Bay,40.845532085563875,-73.84041170646123,Property Crimes,Arson,4,0,327,7705 5th Ave,Under Investigation
+10235,2022-07-24,21:23,Brooklyn,Bushwick,40.7041992046478,-73.9248529231005,Violent Crimes,Homicide,9,2,0,3905 5th Ave,Unsolved
+10236,2021-06-23,23:05,Bronx,Fordham,40.85649281309528,-73.88716994555551,Violent Crimes,Armed Robbery,6,2,0,2183 Broadway,Under Investigation
+10237,2024-01-10,19:49,Staten Island,Todt Hill,40.603412774812156,-74.10406847622899,Violent Crimes,Aggravated Assault,5,1,0,244 1st Ave,Suspect Identified
+10238,2023-09-05,06:49,Brooklyn,Brooklyn Heights,40.692777365330855,-73.98500941711504,Property Crimes,Carjacking,5,0,8878,6537 West End Ave,Suspect Identified
+10239,2021-02-01,08:46,Manhattan,Upper West Side,40.79630053821333,-73.98291405553029,Property Crimes,Commercial Burglary,6,0,6562,431 Columbus Ave,Closed
+10240,2022-08-16,23:11,Brooklyn,Brooklyn Heights,40.704566809136416,-73.99997533867669,Property Crimes,Vandalism,3,0,344,8192 Main St,Under Investigation
+10241,2022-09-12,23:08,Brooklyn,Williamsburg,40.712922412985804,-73.9556105377364,Property Crimes,Vandalism,5,0,9220,72 Park Ave,Unsolved
+10242,2023-11-22,17:47,Brooklyn,DUMBO,40.695995447532525,-73.9824946537628,Property Crimes,Petty Theft,6,0,1125,8413 5th Ave,Under Investigation
+10243,2022-03-25,18:53,Bronx,Fordham,40.85467311885732,-73.89751468404138,Violent Crimes,Homicide,7,2,0,9111 3rd Ave,Suspect Identified
+10244,2024-01-16,22:36,Brooklyn,Bedford-Stuyvesant,40.69050394441392,-73.94133869150461,Property Crimes,Arson,2,0,2222,7288 Avenue B,Suspect Identified
+10245,2023-07-25,13:14,Manhattan,Harlem,40.81914401081626,-73.94865109785155,Property Crimes,Graffiti,2,0,8480,7375 Avenue A,Suspect Arrested
+10246,2021-11-14,11:51,Manhattan,Financial District,40.70628269817141,-74.01376111141151,Violent Crimes,Armed Robbery,9,1,0,9459 Main St,Under Investigation
+10247,2023-09-04,05:32,Queens,Jamaica,40.69802755748328,-73.80354781239647,Property Crimes,Petty Theft,2,0,3493,6849 Avenue A,Suspect Arrested
+10248,2021-09-19,14:57,Bronx,Riverdale,40.884644253902934,-73.90420850853451,Property Crimes,Home Burglary,4,0,2421,153 Park Ave,Closed
+10249,2021-06-23,00:11,Manhattan,Upper West Side,40.787871057222276,-73.96727055778071,Violent Crimes,Armed Robbery,5,1,0,3037 5th Ave,Suspect Identified
+10250,2022-03-03,15:18,Bronx,Riverdale,40.88233796081417,-73.90340335752772,Property Crimes,Commercial Burglary,5,0,4940,5936 Avenue B,Under Investigation
+10251,2024-02-26,06:04,Manhattan,East Village,40.72319811229314,-73.98871455854673,Violent Crimes,Armed Robbery,5,2,0,7563 Park Ave,Closed
+10252,2023-03-30,22:09,Bronx,Riverdale,40.89240145511857,-73.91153077816047,Property Crimes,Home Burglary,5,0,11216,4709 Columbus Ave,Unsolved
+10253,2021-01-15,15:31,Manhattan,Upper West Side,40.79277194422449,-73.98236650240534,Property Crimes,Arson,7,0,1867,6074 5th Ave,Unsolved
+10254,2023-10-19,19:26,Queens,Forest Hills,40.71346978279629,-73.84092107414854,Property Crimes,Home Burglary,6,0,170,997 2nd Ave,Unsolved
+10255,2023-12-18,21:57,Manhattan,Midtown,40.75629779369743,-73.97875082628518,Violent Crimes,Armed Robbery,8,3,0,1375 Amsterdam Ave,Cold Case
+10256,2022-05-09,16:13,Bronx,Riverdale,40.88684163497432,-73.90577485390656,Property Crimes,Commercial Burglary,1,0,586,4520 Lexington Ave,Under Investigation
+10257,2022-05-30,15:16,Staten Island,Todt Hill,40.60842904583469,-74.11095022675336,Property Crimes,Commercial Burglary,4,0,2531,8829 Central Park West,Unsolved
+10258,2022-10-03,13:39,Queens,Astoria,40.770345907315594,-73.93050165145303,Property Crimes,Commercial Burglary,6,0,1301,4102 Riverside Dr,Suspect Arrested
+10259,2022-12-22,22:34,Queens,Flushing,40.76984505136786,-73.82739926926908,Property Crimes,Carjacking,1,0,5124,9582 Main St,Suspect Arrested
+10260,2022-06-18,00:10,Queens,Forest Hills,40.72237896888934,-73.84494551113305,Violent Crimes,Homicide,7,1,0,2702 Amsterdam Ave,Suspect Arrested
+10261,2021-04-21,13:29,Brooklyn,Crown Heights,40.666313919870085,-73.94856804566398,Property Crimes,Graffiti,3,0,11954,13 Lexington Ave,Suspect Arrested
+10262,2023-01-03,15:31,Bronx,Mott Haven,40.81076783589533,-73.92488297166473,Property Crimes,Vandalism,1,0,3099,3625 Broadway,Unsolved
+10263,2022-08-10,04:09,Bronx,Mott Haven,40.81804566679224,-73.92983297193767,Property Crimes,Auto Theft,2,0,4412,7872 Broadway,Suspect Arrested
+10264,2023-01-29,09:14,Brooklyn,Brooklyn Heights,40.69591777357769,-73.99137091529131,Violent Crimes,Unarmed Robbery,9,1,0,4146 Madison Ave,Under Investigation
+10265,2023-09-20,04:48,Bronx,Mott Haven,40.81654247817888,-73.91425763435032,Violent Crimes,Aggravated Assault,7,1,0,7583 Central Park West,Under Investigation
+10266,2023-07-24,19:33,Staten Island,Great Kills,40.55833301647754,-74.14255001237645,Property Crimes,Commercial Burglary,2,0,6141,1821 Riverside Dr,Under Investigation
+10267,2024-02-21,10:23,Queens,Jamaica,40.69505078085828,-73.80697423279666,Property Crimes,Graffiti,3,0,4666,5979 Amsterdam Ave,Suspect Identified
+10268,2022-02-11,07:49,Brooklyn,Crown Heights,40.66788261342605,-73.93747111528751,Property Crimes,Graffiti,6,0,13618,8598 1st Ave,Under Investigation
+10269,2022-08-16,09:49,Queens,Jamaica,40.71051137025813,-73.80948321257192,Violent Crimes,Simple Assault,6,1,0,2135 Amsterdam Ave,Unsolved
+10270,2022-05-28,00:55,Brooklyn,DUMBO,40.71289682397925,-73.98162203827108,Property Crimes,Graffiti,3,0,665,9204 2nd Ave,Under Investigation
+10271,2022-07-01,18:32,Bronx,Riverdale,40.89841683765235,-73.90480207275876,Violent Crimes,Armed Robbery,5,1,0,1868 Central Park West,Suspect Identified
+10272,2022-11-29,07:59,Manhattan,Greenwich Village,40.7357255087149,-73.9996199459226,Property Crimes,Arson,6,0,281,297 Main St,Suspect Arrested
+10273,2021-03-09,03:03,Manhattan,Upper West Side,40.783703944832915,-73.96934293102804,Violent Crimes,Armed Robbery,9,1,0,6328 Park Ave,Unsolved
+10274,2023-03-06,19:05,Staten Island,Great Kills,40.55106998343383,-74.15303662612818,Violent Crimes,Gang Violence,10,1,0,3668 2nd Ave,Under Investigation
+10275,2023-12-19,18:19,Queens,Forest Hills,40.72689711232825,-73.84887308011268,Property Crimes,Vandalism,1,0,2130,7779 Columbus Ave,Unsolved
+10276,2023-06-12,08:18,Bronx,Fordham,40.866150024962195,-73.8917556411822,Violent Crimes,Unarmed Robbery,7,1,0,5799 Avenue A,Suspect Identified
+10277,2022-06-21,11:57,Manhattan,Chelsea,40.74554879032265,-74.00858285959241,Property Crimes,Petty Theft,5,0,970,2101 5th Ave,Under Investigation
+10278,2021-07-29,07:32,Brooklyn,Bedford-Stuyvesant,40.68716735545479,-73.94342149100991,Property Crimes,Auto Theft,4,0,12316,7740 Lexington Ave,Suspect Identified
+10279,2023-08-14,10:51,Manhattan,Upper West Side,40.78424787798233,-73.97378823299444,Property Crimes,Vandalism,2,0,5001,5225 Riverside Dr,Under Investigation
+10280,2022-12-17,23:59,Brooklyn,Flatbush,40.63116188913177,-73.95842925255965,Violent Crimes,Homicide,10,1,0,3166 West End Ave,Unsolved
+10281,2021-02-19,16:42,Bronx,Fordham,40.87062140634939,-73.89782674544493,Property Crimes,Petty Theft,5,0,2677,9299 Lexington Ave,Suspect Arrested
+10282,2021-09-11,18:34,Manhattan,Greenwich Village,40.72560699336157,-73.98766251496309,Violent Crimes,Aggravated Assault,9,1,0,6410 2nd Ave,Suspect Arrested
+10283,2023-10-03,15:14,Staten Island,Great Kills,40.5563077003464,-74.15965847045223,Violent Crimes,Gang Violence,9,2,0,3266 1st Ave,Suspect Arrested
+10284,2023-04-26,23:23,Brooklyn,Flatbush,40.635098111861915,-73.95373891421117,Property Crimes,Graffiti,2,0,1147,1967 Avenue A,Under Investigation
+10285,2023-01-24,02:48,Bronx,Pelham Bay,40.84261375441327,-73.84236900664304,Violent Crimes,Homicide,5,1,0,7450 West End Ave,Under Investigation
+10286,2023-06-05,01:54,Staten Island,Great Kills,40.555696822665254,-74.15968582721143,Violent Crimes,Homicide,9,2,0,6892 2nd Ave,Closed
+10287,2022-10-21,19:30,Staten Island,St. George,40.64376577669496,-74.07581219461345,Property Crimes,Petty Theft,1,0,2905,7118 West End Ave,Under Investigation
+10288,2022-01-01,06:28,Queens,Astoria,40.762415261217505,-73.92230719337384,Property Crimes,Petty Theft,3,0,843,7311 Park Ave,Closed
+10289,2023-08-19,20:09,Staten Island,Great Kills,40.548038562609904,-74.14376428757973,Violent Crimes,Armed Robbery,8,4,0,8645 Main St,Under Investigation
+10290,2021-02-04,08:45,Staten Island,Todt Hill,40.5989661863256,-74.10808510653713,Property Crimes,Arson,2,0,5164,7155 Avenue B,Under Investigation
+10291,2023-06-28,11:44,Manhattan,Upper West Side,40.785174683421964,-73.98489227288678,Property Crimes,Vandalism,2,0,848,7060 5th Ave,Unsolved
+10292,2023-06-20,17:07,Manhattan,Financial District,40.71181944457695,-74.0081215211618,Violent Crimes,Armed Robbery,8,1,0,9237 Central Park West,Unsolved
+10293,2023-07-28,07:50,Manhattan,Chelsea,40.74093944323866,-74.00677850406824,Property Crimes,Vandalism,3,0,5572,2404 Amsterdam Ave,Cold Case
+10294,2023-03-27,02:49,Staten Island,St. George,40.635094210755085,-74.08421782836031,Violent Crimes,Gang Violence,10,2,0,2865 Broadway,Unsolved
+10295,2021-12-11,11:06,Staten Island,Great Kills,40.547970893241086,-74.14794507784296,Violent Crimes,Armed Robbery,9,1,0,472 West End Ave,Suspect Arrested
+10296,2022-08-15,18:49,Brooklyn,Park Slope,40.66298882785519,-73.98653655618,Property Crimes,Graffiti,3,0,6405,1675 Broadway,Suspect Identified
+10297,2022-09-17,19:01,Brooklyn,Bushwick,40.70151392936213,-73.91469560270866,Property Crimes,Carjacking,6,0,2530,9401 Madison Ave,Under Investigation
+10298,2022-01-26,06:56,Staten Island,Todt Hill,40.60486170273141,-74.10940031409169,Property Crimes,Arson,2,0,1734,9192 West End Ave,Under Investigation
+10299,2023-07-30,09:56,Queens,Flushing,40.77332671637042,-73.84153996152979,Violent Crimes,Armed Robbery,10,1,0,7801 Columbus Ave,Suspect Arrested
+10300,2021-08-17,22:15,Brooklyn,DUMBO,40.697357725102925,-73.99786935592252,Property Crimes,Commercial Burglary,3,0,1001,9466 Avenue B,Under Investigation
+10301,2023-08-31,23:42,Staten Island,St. George,40.6463608312194,-74.07787150898815,Violent Crimes,Armed Robbery,7,3,0,921 Broadway,Cold Case
+10302,2023-10-02,11:07,Brooklyn,Williamsburg,40.71444887123477,-73.96026365296603,Property Crimes,Vandalism,1,0,1501,1978 5th Ave,Under Investigation
+10303,2023-10-02,14:03,Queens,Forest Hills,40.71609384816335,-73.8439941011497,Property Crimes,Carjacking,4,0,1560,2358 3rd Ave,Under Investigation
+10304,2022-08-03,06:02,Bronx,Fordham,40.86388297815699,-73.89261176695618,Property Crimes,Graffiti,5,0,4015,5248 Lexington Ave,Suspect Arrested
+10305,2023-11-30,12:35,Manhattan,Harlem,40.8103225305827,-73.95061068480916,Property Crimes,Graffiti,5,0,14826,6509 Broadway,Suspect Arrested
+10306,2021-08-05,10:17,Bronx,Fordham,40.8666721158832,-73.89799773648467,Violent Crimes,Kidnapping,6,3,0,7266 5th Ave,Suspect Identified
+10307,2021-02-02,23:56,Brooklyn,Brooklyn Heights,40.69554862396499,-73.98570895546212,Violent Crimes,Aggravated Assault,6,2,0,5327 Madison Ave,Under Investigation
+10308,2021-09-25,03:02,Staten Island,St. George,40.643204270089385,-74.0858506138336,Property Crimes,Commercial Burglary,4,0,1564,4972 5th Ave,Under Investigation
+10309,2022-12-18,21:51,Queens,Jamaica,40.70283268429321,-73.80583043560347,Property Crimes,Commercial Burglary,2,0,1491,8145 2nd Ave,Under Investigation
+10310,2023-02-17,04:39,Queens,Astoria,40.75718712148146,-73.91680139526402,Property Crimes,Grand Theft,1,0,20803,7942 Amsterdam Ave,Under Investigation
+10311,2023-10-09,08:13,Queens,Forest Hills,40.71901380364605,-73.85236641428303,Property Crimes,Auto Theft,6,0,1589,8831 Columbus Ave,Closed
+10312,2021-10-02,21:15,Staten Island,Todt Hill,40.59186781353095,-74.09521402386879,Violent Crimes,Homicide,5,1,0,4776 Main St,Suspect Identified
+10313,2023-09-14,17:45,Queens,Long Island City,40.74623032951029,-73.95301889558625,Violent Crimes,Domestic Violence,7,1,0,3153 Avenue B,Cold Case
+10314,2023-11-25,03:23,Brooklyn,Bushwick,40.69742840776704,-73.91470516392586,Violent Crimes,Armed Robbery,5,1,0,9658 Central Park West,Suspect Identified
+10315,2023-05-30,23:12,Brooklyn,DUMBO,40.69341991657317,-73.99566228739862,Violent Crimes,Domestic Violence,9,3,0,2963 Main St,Closed
+10316,2021-03-21,09:15,Staten Island,Todt Hill,40.608977801551255,-74.10155173795658,Violent Crimes,Domestic Violence,6,1,0,933 5th Ave,Unsolved
+10317,2023-05-11,01:33,Brooklyn,Brooklyn Heights,40.69910073349092,-74.00009257442753,Violent Crimes,Kidnapping,9,3,0,3586 5th Ave,Suspect Identified
+10318,2023-06-22,07:43,Queens,Jackson Heights,40.753975410497844,-73.88533722943501,Violent Crimes,Armed Robbery,5,1,0,133 Avenue B,Closed
+10319,2021-06-25,12:12,Brooklyn,Brooklyn Heights,40.6867393193355,-74.00027433262488,Property Crimes,Arson,2,0,6697,8502 Riverside Dr,Under Investigation
+10320,2024-02-13,13:24,Queens,Forest Hills,40.7101559733585,-73.84373695781066,Violent Crimes,Kidnapping,9,1,0,1564 Lexington Ave,Suspect Arrested
+10321,2022-01-01,18:41,Manhattan,Upper West Side,40.78478591228084,-73.97962612526457,Property Crimes,Graffiti,5,0,2197,7857 Broadway,Unsolved
+10322,2021-12-06,12:56,Manhattan,Financial District,40.71188091810369,-74.01535756568754,Violent Crimes,Simple Assault,9,1,0,5553 Central Park West,Suspect Arrested
+10323,2022-01-01,01:55,Brooklyn,Park Slope,40.670521008043984,-73.97812657669274,Property Crimes,Auto Theft,4,0,13809,5697 Madison Ave,Suspect Identified
+10324,2022-12-06,03:57,Bronx,Fordham,40.86605144194421,-73.89650119242819,Property Crimes,Vandalism,7,0,158,1336 Main St,Unsolved
+10325,2022-07-26,16:36,Bronx,Pelham Bay,40.84404528088599,-73.831198441386,Property Crimes,Home Burglary,5,0,263,3954 2nd Ave,Under Investigation
+10326,2024-02-08,10:22,Bronx,Pelham Bay,40.84872732494402,-73.83116314302167,Violent Crimes,Aggravated Assault,9,1,0,8596 Riverside Dr,Unsolved
+10327,2021-02-26,11:19,Bronx,Pelham Bay,40.854218244074914,-73.84096803493733,Violent Crimes,Kidnapping,7,1,0,484 Madison Ave,Under Investigation
+10328,2022-07-28,16:46,Manhattan,Upper West Side,40.79156377512407,-73.97549017367587,Violent Crimes,Domestic Violence,10,1,0,7539 Riverside Dr,Suspect Identified
+10329,2023-12-19,02:35,Bronx,Riverdale,40.888696546772074,-73.91727195933521,Violent Crimes,Simple Assault,9,2,0,679 West End Ave,Unsolved
+10330,2023-09-29,16:57,Manhattan,Upper West Side,40.79298831757938,-73.9715060705829,Violent Crimes,Unarmed Robbery,10,1,0,8549 Lexington Ave,Suspect Arrested
+10331,2023-10-26,00:06,Manhattan,Harlem,40.81340461333738,-73.9492805220612,Property Crimes,Graffiti,2,0,480,7024 Broadway,Under Investigation
+10332,2021-04-08,21:22,Queens,Flushing,40.773746271509246,-73.83906362738162,Property Crimes,Arson,3,0,15002,2680 3rd Ave,Suspect Arrested
+10333,2021-01-29,21:40,Staten Island,Great Kills,40.55332011545916,-74.15729734142323,Violent Crimes,Armed Robbery,5,1,0,4302 2nd Ave,Unsolved
+10334,2022-08-29,08:47,Manhattan,Upper West Side,40.794458916717524,-73.9707555022718,Violent Crimes,Simple Assault,7,2,0,7012 Central Park West,Suspect Arrested
+10335,2023-04-01,04:03,Manhattan,Financial District,40.710675667334215,-74.00745446870965,Property Crimes,Grand Theft,7,0,9458,4858 Amsterdam Ave,Suspect Arrested
+10336,2021-12-08,03:13,Manhattan,Financial District,40.702493360177186,-74.01151150072714,Property Crimes,Graffiti,3,0,1250,1447 Broadway,Unsolved
+10337,2023-01-15,08:32,Staten Island,Todt Hill,40.611253360159935,-74.09461881320627,Property Crimes,Graffiti,7,0,201,7486 1st Ave,Under Investigation
+10338,2022-09-04,06:23,Manhattan,Upper East Side,40.77761150345031,-73.9479950336517,Property Crimes,Petty Theft,7,0,995,1458 Avenue A,Under Investigation
+10339,2023-04-05,11:49,Staten Island,Todt Hill,40.602858904611054,-74.09519023404823,Property Crimes,Grand Theft,1,0,172,22 Main St,Under Investigation
+10340,2021-10-29,04:34,Manhattan,Chelsea,40.75044840534493,-74.00545301985255,Violent Crimes,Simple Assault,5,3,0,8751 Broadway,Under Investigation
+10341,2021-03-25,04:13,Queens,Flushing,40.77482116490331,-73.82291467021773,Property Crimes,Auto Theft,2,0,3214,6831 Park Ave,Under Investigation
+10342,2023-10-10,20:36,Bronx,Fordham,40.86864085301979,-73.88390901202929,Violent Crimes,Simple Assault,8,1,0,3988 5th Ave,Under Investigation
+10343,2023-01-17,16:25,Manhattan,Greenwich Village,40.74047830948301,-74.00685984730569,Violent Crimes,Homicide,8,1,0,6848 Park Ave,Unsolved
+10344,2024-02-01,15:24,Bronx,Riverdale,40.88460017674576,-73.91978866228445,Property Crimes,Grand Theft,4,0,400,7932 Lexington Ave,Closed
+10345,2021-08-20,05:29,Manhattan,Chelsea,40.75042577551756,-74.00460250072464,Property Crimes,Home Burglary,4,0,6450,6304 1st Ave,Suspect Arrested
+10346,2023-10-14,16:36,Brooklyn,Brooklyn Heights,40.687107126815974,-73.99729419324339,Violent Crimes,Armed Robbery,8,1,0,6981 Central Park West,Unsolved
+10347,2022-04-18,04:54,Queens,Flushing,40.77121446329678,-73.83542494994136,Violent Crimes,Domestic Violence,10,1,0,456 2nd Ave,Unsolved
+10348,2022-05-30,00:06,Bronx,Riverdale,40.89771955496472,-73.90988273623636,Violent Crimes,Domestic Violence,6,1,0,3617 3rd Ave,Suspect Arrested
+10349,2021-08-12,17:18,Brooklyn,Bedford-Stuyvesant,40.67768801563113,-73.93439802252198,Violent Crimes,Simple Assault,9,1,0,6437 Avenue B,Under Investigation
+10350,2022-08-09,18:05,Bronx,Pelham Bay,40.85629403345368,-73.83252125731946,Property Crimes,Graffiti,7,0,13989,8126 Lexington Ave,Unsolved
+10351,2021-09-19,03:52,Brooklyn,Bushwick,40.70037566471547,-73.91134131778934,Property Crimes,Arson,3,0,2159,6445 Main St,Suspect Identified
+10352,2023-09-14,14:42,Brooklyn,Brooklyn Heights,40.70114376577862,-73.99556138172781,Property Crimes,Arson,6,0,3268,4937 3rd Ave,Under Investigation
+10353,2021-03-16,05:53,Manhattan,Financial District,40.71005010926437,-74.00382645771627,Property Crimes,Auto Theft,4,0,20701,9474 Central Park West,Unsolved
+10354,2022-02-11,22:56,Brooklyn,DUMBO,40.70856546827729,-73.99004466435665,Violent Crimes,Kidnapping,5,1,0,7888 5th Ave,Under Investigation
+10355,2023-12-10,10:08,Brooklyn,Bedford-Stuyvesant,40.691951646031775,-73.94702445708464,Violent Crimes,Armed Robbery,9,1,0,6223 Broadway,Suspect Identified
+10356,2023-08-12,07:13,Manhattan,Upper West Side,40.784092443152815,-73.97965522016692,Violent Crimes,Aggravated Assault,7,1,0,5787 Columbus Ave,Under Investigation
+10357,2021-02-23,04:01,Queens,Jamaica,40.696672155021,-73.81765813620727,Property Crimes,Home Burglary,3,0,90,5254 2nd Ave,Suspect Arrested
+10358,2023-07-05,17:45,Staten Island,Todt Hill,40.61125444779472,-74.10494453732528,Violent Crimes,Domestic Violence,8,1,0,3330 Madison Ave,Under Investigation
+10359,2024-01-11,23:49,Brooklyn,Williamsburg,40.711692945653866,-73.96273492224269,Property Crimes,Grand Theft,4,0,14974,4646 Avenue A,Suspect Identified
+10360,2023-03-22,12:51,Bronx,Pelham Bay,40.854526900288306,-73.84131177995376,Violent Crimes,Aggravated Assault,8,1,0,4148 Columbus Ave,Under Investigation
+10361,2022-09-23,21:09,Staten Island,St. George,40.65228236615124,-74.06740535955417,Property Crimes,Vandalism,1,0,3149,1715 Avenue A,Suspect Identified
+10362,2023-10-25,09:43,Staten Island,Great Kills,40.556668227784215,-74.15765932107816,Violent Crimes,Aggravated Assault,7,7,0,5313 Avenue B,Unsolved
+10363,2023-12-18,12:35,Staten Island,Todt Hill,40.59613343402767,-74.09464536451729,Violent Crimes,Homicide,10,1,0,3685 Lexington Ave,Under Investigation
+10364,2024-01-15,13:11,Bronx,Fordham,40.86355473589758,-73.89054622977967,Property Crimes,Vandalism,3,0,1311,3849 Avenue B,Under Investigation
+10365,2023-03-22,17:24,Bronx,Riverdale,40.88353056064011,-73.91779027581859,Property Crimes,Home Burglary,6,0,1031,9612 Columbus Ave,Under Investigation
+10366,2023-01-13,16:35,Brooklyn,Flatbush,40.64649168947134,-73.96469749481666,Violent Crimes,Gang Violence,10,1,0,1883 2nd Ave,Unsolved
+10367,2021-02-24,03:54,Bronx,Pelham Bay,40.858182052602814,-73.82542428230073,Property Crimes,Arson,5,0,13138,1009 5th Ave,Under Investigation
+10368,2023-02-21,11:01,Bronx,Riverdale,40.89989815645293,-73.91872209501561,Violent Crimes,Armed Robbery,8,1,0,5724 Amsterdam Ave,Suspect Arrested
+10369,2021-12-13,13:12,Queens,Forest Hills,40.72366476951408,-73.84187958763893,Property Crimes,Graffiti,1,0,835,4326 Amsterdam Ave,Suspect Identified
+10370,2023-01-07,15:40,Staten Island,Great Kills,40.560716662499814,-74.15651118856326,Violent Crimes,Simple Assault,9,1,0,8774 1st Ave,Under Investigation
+10371,2021-04-04,13:38,Queens,Flushing,40.76613948845787,-73.82994120130317,Violent Crimes,Homicide,5,1,0,1072 Central Park West,Suspect Identified
+10372,2022-01-03,20:16,Manhattan,Upper East Side,40.76532973674795,-73.9489507827474,Property Crimes,Petty Theft,5,0,1543,9853 5th Ave,Unsolved
+10373,2022-02-07,05:33,Queens,Flushing,40.75799029842565,-73.82402503840262,Property Crimes,Home Burglary,5,0,15578,1301 Avenue A,Suspect Arrested
+10374,2023-04-12,16:22,Bronx,Fordham,40.868642552345314,-73.8846096785055,Property Crimes,Graffiti,1,0,5324,4768 Riverside Dr,Suspect Identified
+10375,2021-12-07,20:33,Staten Island,St. George,40.645717147412185,-74.08456026480178,Property Crimes,Petty Theft,4,0,2625,9901 Park Ave,Cold Case
+10376,2022-09-03,04:06,Staten Island,Todt Hill,40.598953770340245,-74.10830492432478,Property Crimes,Commercial Burglary,7,0,6426,6512 Avenue B,Under Investigation
+10377,2021-10-08,12:51,Manhattan,Chelsea,40.74641751470157,-74.00977907568185,Violent Crimes,Kidnapping,9,1,0,305 Riverside Dr,Suspect Arrested
+10378,2021-05-18,10:26,Bronx,Mott Haven,40.81276517527319,-73.9313773828102,Violent Crimes,Kidnapping,5,2,0,3719 Avenue A,Under Investigation
+10379,2021-05-10,13:06,Manhattan,Upper East Side,40.77340293054028,-73.95688826845347,Violent Crimes,Aggravated Assault,9,1,0,1819 Main St,Suspect Arrested
+10380,2021-08-26,00:40,Queens,Forest Hills,40.724993619318504,-73.84884381584196,Property Crimes,Grand Theft,5,0,5666,6905 Madison Ave,Unsolved
+10381,2022-02-17,19:11,Staten Island,St. George,40.64601463927992,-74.08095943459662,Violent Crimes,Kidnapping,6,3,0,6979 Amsterdam Ave,Under Investigation
+10382,2022-05-05,07:19,Manhattan,Upper West Side,40.79294852043214,-73.97223096330683,Property Crimes,Arson,6,0,9505,335 2nd Ave,Suspect Identified
+10383,2021-02-03,18:22,Staten Island,Todt Hill,40.608845884019196,-74.0993327404657,Violent Crimes,Unarmed Robbery,6,2,0,7156 Columbus Ave,Suspect Arrested
+10384,2022-09-12,16:45,Brooklyn,DUMBO,40.70714942923339,-73.9847971845648,Violent Crimes,Gang Violence,7,1,0,3722 2nd Ave,Under Investigation
+10385,2022-12-02,00:54,Staten Island,Great Kills,40.559454332791155,-74.15782789789414,Property Crimes,Home Burglary,3,0,10637,4621 Main St,Closed
+10386,2021-01-16,02:59,Brooklyn,DUMBO,40.71063687055491,-73.99781505433931,Violent Crimes,Simple Assault,9,2,0,7741 Avenue B,Under Investigation
+10387,2021-09-03,18:01,Brooklyn,Bedford-Stuyvesant,40.67977739734947,-73.94509762291482,Property Crimes,Vandalism,3,0,6803,9308 Main St,Unsolved
+10388,2021-02-15,21:09,Bronx,Pelham Bay,40.842015197920965,-73.82674065951763,Property Crimes,Auto Theft,3,0,8922,1611 5th Ave,Under Investigation
+10389,2023-01-20,19:29,Staten Island,Great Kills,40.55454935467522,-74.16087228256566,Violent Crimes,Domestic Violence,5,1,0,8000 West End Ave,Suspect Arrested
+10390,2023-09-05,04:01,Manhattan,Greenwich Village,40.736238538367516,-73.98797627643945,Property Crimes,Auto Theft,7,0,4995,2591 Main St,Under Investigation
+10391,2021-08-28,18:09,Queens,Flushing,40.760596071621286,-73.82911988593801,Property Crimes,Vandalism,3,0,3882,1695 Avenue A,Under Investigation
+10392,2022-03-05,16:11,Queens,Jackson Heights,40.76119690790303,-73.89086038722346,Violent Crimes,Armed Robbery,9,2,0,2495 West End Ave,Suspect Arrested
+10393,2023-05-07,06:29,Staten Island,Great Kills,40.555225331573524,-74.14174015992282,Property Crimes,Petty Theft,5,0,2091,3810 Amsterdam Ave,Closed
+10394,2021-11-08,12:29,Bronx,Fordham,40.86405243786268,-73.8821594378898,Violent Crimes,Unarmed Robbery,7,1,0,1459 3rd Ave,Unsolved
+10395,2023-09-07,17:04,Manhattan,East Village,40.73524456974473,-73.97774228555399,Property Crimes,Graffiti,7,0,351,7860 Main St,Unsolved
+10396,2022-12-17,03:48,Staten Island,Todt Hill,40.59751927133894,-74.0993365582271,Violent Crimes,Kidnapping,10,1,0,7574 Madison Ave,Closed
+10397,2022-04-05,00:14,Staten Island,St. George,40.646343409203524,-74.07938233886094,Violent Crimes,Kidnapping,6,1,0,8647 Main St,Suspect Arrested
+10398,2023-05-01,04:49,Bronx,Pelham Bay,40.839714840676244,-73.82566926387696,Violent Crimes,Unarmed Robbery,10,5,0,6819 2nd Ave,Cold Case
+10399,2021-05-12,22:54,Bronx,Pelham Bay,40.85817755710571,-73.82810696336514,Property Crimes,Home Burglary,7,0,696,2661 1st Ave,Suspect Identified
+10400,2022-02-09,19:51,Staten Island,St. George,40.64986526391858,-74.08580826167082,Violent Crimes,Domestic Violence,7,1,0,3724 Riverside Dr,Suspect Identified
+10401,2021-01-04,14:52,Manhattan,Harlem,40.80807220438299,-73.94672713619191,Violent Crimes,Armed Robbery,6,2,0,500 West End Ave,Under Investigation
+10402,2023-12-26,07:17,Manhattan,Financial District,40.711165907532134,-74.01238194587248,Property Crimes,Home Burglary,4,0,1598,9843 5th Ave,Closed
+10403,2022-10-18,10:41,Bronx,Pelham Bay,40.85874249000315,-73.83457637395529,Property Crimes,Carjacking,6,0,3001,757 Lexington Ave,Unsolved
+10404,2023-07-26,17:06,Queens,Jackson Heights,40.748872476423834,-73.877103809025,Property Crimes,Carjacking,1,0,5915,743 Lexington Ave,Suspect Arrested
+10405,2022-05-29,05:20,Manhattan,Upper East Side,40.76791539225577,-73.96485237908769,Property Crimes,Vandalism,2,0,5704,7258 Avenue B,Unsolved
+10406,2021-07-14,17:58,Bronx,Pelham Bay,40.85189022428562,-73.83763480946004,Violent Crimes,Armed Robbery,5,4,0,5669 Central Park West,Closed
+10407,2023-09-30,16:45,Manhattan,Financial District,40.700521157835624,-74.01265330397915,Violent Crimes,Domestic Violence,10,4,0,9352 5th Ave,Under Investigation
+10408,2023-10-29,07:38,Bronx,Riverdale,40.888394546338525,-73.90942948104671,Violent Crimes,Homicide,6,1,0,6140 Avenue A,Under Investigation
+10409,2021-11-21,00:22,Brooklyn,Brooklyn Heights,40.691284304046974,-73.9839204470408,Property Crimes,Petty Theft,5,0,2632,1334 Park Ave,Suspect Arrested
+10410,2022-08-25,07:26,Manhattan,Chelsea,40.75438198407358,-74.00680090788218,Property Crimes,Carjacking,4,0,1198,4999 Park Ave,Under Investigation
+10411,2021-02-08,10:28,Bronx,Mott Haven,40.79972268165769,-73.91986666349248,Property Crimes,Arson,7,0,2298,184 Avenue A,Suspect Arrested
+10412,2023-02-17,10:36,Bronx,Fordham,40.86868716499679,-73.89133580186616,Violent Crimes,Unarmed Robbery,9,5,0,9853 Central Park West,Suspect Identified
+10413,2021-06-07,06:41,Manhattan,Greenwich Village,40.72761051031406,-73.99022753664089,Violent Crimes,Homicide,6,2,0,4796 1st Ave,Unsolved
+10414,2021-09-21,01:59,Staten Island,Todt Hill,40.60691843689288,-74.09660433543766,Property Crimes,Home Burglary,6,0,7156,5508 Riverside Dr,Unsolved
+10415,2024-02-16,12:43,Brooklyn,Williamsburg,40.71062440643263,-73.96447510244634,Property Crimes,Graffiti,5,0,165,4712 Avenue B,Unsolved
+10416,2021-01-04,04:17,Staten Island,St. George,40.65311695695632,-74.07396699370959,Property Crimes,Vandalism,7,0,7961,7297 3rd Ave,Unsolved
+10417,2021-07-09,22:17,Staten Island,St. George,40.64433044703025,-74.08395383622076,Property Crimes,Carjacking,2,0,668,8530 Columbus Ave,Under Investigation
+10418,2023-02-24,11:43,Manhattan,Greenwich Village,40.73761130574458,-73.99899388210201,Violent Crimes,Simple Assault,8,1,0,9347 Amsterdam Ave,Suspect Identified
+10419,2021-01-19,14:02,Staten Island,Great Kills,40.55423189093483,-74.15971582125849,Property Crimes,Grand Theft,7,0,4361,4637 3rd Ave,Suspect Identified
+10420,2021-08-06,13:14,Queens,Forest Hills,40.7138798680887,-73.83984881798726,Violent Crimes,Kidnapping,6,1,0,4720 Lexington Ave,Suspect Arrested
+10421,2022-03-04,17:30,Brooklyn,Brooklyn Heights,40.694904402981635,-74.00336758920184,Property Crimes,Home Burglary,1,0,376,6999 Riverside Dr,Suspect Identified
+10422,2023-07-21,18:44,Staten Island,St. George,40.64254987112813,-74.07670122330566,Property Crimes,Carjacking,3,0,4581,3014 Park Ave,Under Investigation
+10423,2022-10-15,19:31,Queens,Flushing,40.76123325157418,-73.82790036227748,Violent Crimes,Unarmed Robbery,9,2,0,5521 Avenue B,Suspect Arrested
+10424,2021-01-06,15:17,Brooklyn,Crown Heights,40.67499701977787,-73.95140762349303,Property Crimes,Grand Theft,3,0,3274,6229 2nd Ave,Unsolved
+10425,2021-09-01,22:34,Queens,Jackson Heights,40.74769860356837,-73.88815909968274,Property Crimes,Commercial Burglary,5,0,21585,958 Avenue A,Suspect Arrested
+10426,2024-01-12,08:50,Queens,Long Island City,40.73754991085803,-73.94852223693097,Property Crimes,Auto Theft,6,0,4813,9199 Riverside Dr,Under Investigation
+10427,2022-09-06,19:58,Queens,Long Island City,40.74874929941088,-73.94730702633025,Property Crimes,Grand Theft,5,0,49,8956 3rd Ave,Closed
+10428,2022-03-08,08:32,Bronx,Riverdale,40.88652922616488,-73.9118457671323,Property Crimes,Grand Theft,5,0,459,2231 2nd Ave,Under Investigation
+10429,2021-09-16,08:07,Staten Island,Todt Hill,40.598512538624185,-74.11283593782417,Property Crimes,Commercial Burglary,2,0,409,2092 Lexington Ave,Under Investigation
+10430,2024-01-27,22:18,Bronx,Fordham,40.85933846552403,-73.89814568491914,Property Crimes,Auto Theft,4,0,4191,332 Madison Ave,Suspect Arrested
+10431,2021-02-21,12:06,Bronx,Fordham,40.86518929938275,-73.88478826601782,Property Crimes,Auto Theft,6,0,1116,1521 Lexington Ave,Suspect Identified
+10432,2024-02-19,23:21,Bronx,Mott Haven,40.80244965164518,-73.93080864319332,Property Crimes,Auto Theft,7,0,5058,2730 5th Ave,Suspect Identified
+10433,2023-06-24,10:50,Brooklyn,Park Slope,40.675129514529736,-73.99076827710348,Property Crimes,Petty Theft,3,0,13760,930 Madison Ave,Suspect Identified
+10434,2021-07-27,13:19,Queens,Long Island City,40.73573942567303,-73.94767407329397,Violent Crimes,Armed Robbery,8,1,0,7050 Madison Ave,Suspect Identified
+10435,2022-08-03,12:45,Brooklyn,Bedford-Stuyvesant,40.69461938247492,-73.93751826135735,Property Crimes,Arson,4,0,8090,6405 Madison Ave,Under Investigation
+10436,2021-01-19,14:01,Brooklyn,Bushwick,40.69118900385086,-73.91500349772507,Violent Crimes,Domestic Violence,6,1,0,643 Central Park West,Suspect Arrested
+10437,2021-03-27,13:03,Bronx,Riverdale,40.89789633312121,-73.91124815247693,Violent Crimes,Armed Robbery,9,2,0,2318 Columbus Ave,Cold Case
+10438,2022-10-09,09:32,Staten Island,Todt Hill,40.60054636569037,-74.10062844609607,Property Crimes,Commercial Burglary,1,0,3736,849 Park Ave,Suspect Arrested
+10439,2022-01-23,04:37,Staten Island,Todt Hill,40.60613179043511,-74.11186740035939,Violent Crimes,Domestic Violence,5,1,0,5878 1st Ave,Unsolved
+10440,2024-01-10,06:03,Staten Island,St. George,40.6396420646802,-74.08310910639774,Violent Crimes,Kidnapping,5,3,0,8345 Main St,Suspect Arrested
+10441,2021-08-17,07:14,Staten Island,St. George,40.63908427974716,-74.06678269488361,Property Crimes,Home Burglary,3,0,2054,2828 Central Park West,Under Investigation
+10442,2022-07-28,20:23,Manhattan,Financial District,40.701142358313774,-74.00550602985716,Property Crimes,Petty Theft,5,0,5375,1758 Main St,Suspect Arrested
+10443,2021-04-23,23:50,Staten Island,St. George,40.644663914329065,-74.07519272898125,Property Crimes,Auto Theft,3,0,6350,762 Avenue B,Unsolved
+10444,2021-08-18,15:36,Queens,Jackson Heights,40.750169094826624,-73.87307332167886,Violent Crimes,Unarmed Robbery,6,5,0,3039 West End Ave,Under Investigation
+10445,2023-07-20,03:59,Bronx,Mott Haven,40.81210651372694,-73.92890915098141,Violent Crimes,Homicide,9,1,0,5629 Lexington Ave,Unsolved
+10446,2024-01-19,04:37,Bronx,Riverdale,40.88144396817958,-73.92158694995588,Property Crimes,Vandalism,4,0,1489,3739 Main St,Suspect Arrested
+10447,2021-08-08,15:34,Bronx,Fordham,40.86065245913479,-73.88343454989183,Violent Crimes,Homicide,5,1,0,5121 5th Ave,Suspect Identified
+10448,2023-05-25,00:40,Brooklyn,DUMBO,40.708054130424,-73.98989013331104,Property Crimes,Vandalism,5,0,2122,3490 Riverside Dr,Under Investigation
+10449,2023-12-03,04:30,Brooklyn,DUMBO,40.700620775259694,-73.97864700872528,Property Crimes,Petty Theft,2,0,204,4755 Park Ave,Suspect Identified
+10450,2022-12-04,10:40,Bronx,Fordham,40.86874062992245,-73.88922649182855,Property Crimes,Home Burglary,6,0,2886,5381 Park Ave,Closed
+10451,2024-02-05,01:21,Bronx,Mott Haven,40.8136051532083,-73.9231666211715,Violent Crimes,Domestic Violence,7,3,0,4779 Amsterdam Ave,Under Investigation
+10452,2021-02-02,02:31,Staten Island,Todt Hill,40.60951403728023,-74.10506558146253,Property Crimes,Auto Theft,4,0,1620,9483 Main St,Cold Case
+10453,2021-10-23,10:06,Staten Island,Great Kills,40.556247006571866,-74.14275273308766,Violent Crimes,Unarmed Robbery,6,1,0,3423 Main St,Suspect Arrested
+10454,2024-02-27,07:32,Manhattan,Harlem,40.81405933167127,-73.94386879559815,Property Crimes,Home Burglary,3,0,6604,8430 1st Ave,Unsolved
+10455,2024-01-29,14:22,Queens,Long Island City,40.737331353702544,-73.94418350070636,Property Crimes,Home Burglary,1,0,11986,2070 Madison Ave,Suspect Arrested
+10456,2022-04-09,21:44,Brooklyn,Bedford-Stuyvesant,40.6807936621774,-73.94704913350152,Property Crimes,Arson,6,0,17770,6407 5th Ave,Cold Case
+10457,2021-02-24,10:50,Staten Island,St. George,40.63831953905419,-74.06921229813261,Property Crimes,Grand Theft,5,0,3389,1509 Lexington Ave,Under Investigation
+10458,2023-05-05,01:55,Staten Island,Todt Hill,40.59644462148807,-74.09608500197454,Property Crimes,Graffiti,2,0,2946,4257 Park Ave,Cold Case
+10459,2021-03-26,17:12,Staten Island,Great Kills,40.5546963470786,-74.153815332612,Violent Crimes,Unarmed Robbery,5,1,0,6477 2nd Ave,Suspect Identified
+10460,2021-02-15,14:08,Queens,Long Island City,40.737970477451704,-73.95067836926697,Violent Crimes,Armed Robbery,9,5,0,6216 Central Park West,Unsolved
+10461,2022-07-16,19:32,Bronx,Pelham Bay,40.84396266865402,-73.82996526670918,Violent Crimes,Domestic Violence,10,1,0,8023 Amsterdam Ave,Cold Case
+10462,2021-04-23,13:26,Bronx,Mott Haven,40.81456946251373,-73.93028252678563,Property Crimes,Grand Theft,7,0,17503,5282 3rd Ave,Closed
+10463,2022-06-11,00:22,Queens,Long Island City,40.74377579082768,-73.95377899073307,Violent Crimes,Aggravated Assault,8,1,0,5351 3rd Ave,Under Investigation
+10464,2021-03-24,11:03,Manhattan,Greenwich Village,40.72729515810175,-73.99720452102889,Violent Crimes,Unarmed Robbery,7,1,0,4869 Main St,Under Investigation
+10465,2022-02-14,04:25,Staten Island,St. George,40.65127766731765,-74.07768224952677,Violent Crimes,Domestic Violence,5,1,0,8727 Amsterdam Ave,Under Investigation
+10466,2022-05-10,18:30,Manhattan,Greenwich Village,40.736242899732076,-73.99346445566229,Property Crimes,Arson,3,0,913,935 West End Ave,Suspect Arrested
+10467,2023-05-18,04:21,Queens,Astoria,40.75775238432577,-73.93276657146133,Violent Crimes,Simple Assault,10,1,0,7168 1st Ave,Closed
+10468,2023-12-24,13:40,Manhattan,Upper West Side,40.79027609055243,-73.97590738248499,Violent Crimes,Kidnapping,10,2,0,2797 Amsterdam Ave,Suspect Arrested
+10469,2023-03-10,16:37,Queens,Jackson Heights,40.761713403059005,-73.88129291271206,Property Crimes,Commercial Burglary,2,0,10135,1485 3rd Ave,Closed
+10470,2022-02-02,07:08,Manhattan,Upper East Side,40.767616824200736,-73.96426160761204,Violent Crimes,Domestic Violence,7,1,0,2615 Broadway,Under Investigation
+10471,2021-09-25,06:40,Manhattan,Greenwich Village,40.725041737121785,-73.99697660943998,Violent Crimes,Homicide,8,4,0,8466 2nd Ave,Unsolved
+10472,2021-09-01,20:59,Staten Island,St. George,40.635486870813374,-74.0838578017198,Violent Crimes,Unarmed Robbery,10,1,0,6478 5th Ave,Suspect Identified
+10473,2023-11-18,06:24,Staten Island,Todt Hill,40.61017750035056,-74.10717687790046,Property Crimes,Grand Theft,5,0,3538,7080 5th Ave,Suspect Arrested
+10474,2021-03-06,23:20,Bronx,Pelham Bay,40.83963145718101,-73.84013313598076,Violent Crimes,Simple Assault,7,6,0,1694 Central Park West,Under Investigation
+10475,2023-05-02,22:20,Manhattan,Chelsea,40.75580237392872,-74.01130120038131,Violent Crimes,Kidnapping,6,4,0,7697 Central Park West,Unsolved
+10476,2022-06-02,14:25,Brooklyn,Bushwick,40.69718239875631,-73.9139416341096,Violent Crimes,Unarmed Robbery,8,1,0,7749 Park Ave,Under Investigation
+10477,2023-11-24,18:03,Manhattan,Upper West Side,40.78731192057158,-73.97562306839485,Property Crimes,Carjacking,3,0,5496,2229 1st Ave,Suspect Arrested
+10478,2023-11-22,22:07,Staten Island,Great Kills,40.547193025095126,-74.16040052820254,Violent Crimes,Kidnapping,9,1,0,9321 Riverside Dr,Under Investigation
+10479,2021-11-25,08:20,Staten Island,Great Kills,40.55849361525473,-74.15696293095753,Property Crimes,Carjacking,6,0,5595,5254 5th Ave,Unsolved
+10480,2021-04-20,09:41,Queens,Forest Hills,40.727898240922144,-73.85392198568421,Violent Crimes,Simple Assault,8,1,0,3248 Madison Ave,Under Investigation
+10481,2022-02-20,23:46,Brooklyn,Flatbush,40.639775004386095,-73.95433715491244,Property Crimes,Petty Theft,2,0,974,6703 1st Ave,Unsolved
+10482,2022-09-25,03:48,Manhattan,Chelsea,40.75035251904452,-73.99463769420704,Property Crimes,Carjacking,5,0,14467,464 Central Park West,Under Investigation
+10483,2021-10-20,21:34,Staten Island,St. George,40.64836496056579,-74.07635650471984,Violent Crimes,Homicide,7,1,0,4044 Broadway,Suspect Identified
+10484,2023-06-17,20:44,Manhattan,Greenwich Village,40.74127809968957,-73.99618780506722,Property Crimes,Home Burglary,6,0,154,4752 Broadway,Under Investigation
+10485,2024-02-14,20:50,Brooklyn,Brooklyn Heights,40.70441897391014,-73.98980946497937,Property Crimes,Carjacking,4,0,5642,6157 Avenue B,Closed
+10486,2023-02-04,03:27,Bronx,Riverdale,40.884313503047956,-73.90902229059535,Property Crimes,Graffiti,2,0,2503,866 Avenue A,Suspect Identified
+10487,2023-05-24,04:31,Brooklyn,Park Slope,40.67402465954083,-73.98926813939383,Property Crimes,Arson,1,0,5362,9563 3rd Ave,Suspect Identified
+10488,2022-11-06,17:07,Manhattan,Chelsea,40.75648827451541,-74.01043575922279,Violent Crimes,Homicide,5,5,0,7449 2nd Ave,Suspect Arrested
+10489,2022-08-11,20:25,Manhattan,Upper East Side,40.771638159214454,-73.94908493099327,Property Crimes,Petty Theft,3,0,7625,2094 West End Ave,Suspect Arrested
+10490,2021-03-02,18:49,Staten Island,St. George,40.64604032521974,-74.07153101581498,Property Crimes,Carjacking,4,0,10539,3164 Columbus Ave,Under Investigation
+10491,2023-04-18,02:33,Queens,Long Island City,40.74278280643302,-73.95195933676874,Property Crimes,Carjacking,7,0,5506,1709 Riverside Dr,Under Investigation
+10492,2023-10-10,01:43,Manhattan,Upper East Side,40.779656918838825,-73.95125429730447,Property Crimes,Arson,4,0,7992,3337 Lexington Ave,Under Investigation
+10493,2021-10-03,21:17,Staten Island,St. George,40.64341166629626,-74.0699433156765,Property Crimes,Graffiti,4,0,640,806 3rd Ave,Under Investigation
+10494,2022-07-19,03:36,Bronx,Pelham Bay,40.84968978195921,-73.84298482679004,Violent Crimes,Gang Violence,8,1,0,2960 Amsterdam Ave,Closed
+10495,2023-01-16,19:28,Queens,Forest Hills,40.71582923069742,-73.84787654616781,Violent Crimes,Gang Violence,10,1,0,7659 Amsterdam Ave,Suspect Identified
+10496,2023-08-31,09:59,Brooklyn,DUMBO,40.70097116202541,-73.98942612754755,Violent Crimes,Simple Assault,6,1,0,5782 Central Park West,Closed
+10497,2022-08-01,21:21,Manhattan,Greenwich Village,40.73136503583259,-74.00305460745474,Property Crimes,Home Burglary,7,0,380,2789 Amsterdam Ave,Suspect Arrested
+10498,2021-02-21,10:49,Queens,Long Island City,40.74676897186763,-73.94513574402889,Property Crimes,Commercial Burglary,4,0,4831,865 Lexington Ave,Under Investigation
+10499,2023-10-11,13:38,Manhattan,Harlem,40.81086988087601,-73.94890428439642,Violent Crimes,Simple Assault,9,2,0,3205 Amsterdam Ave,Suspect Arrested
+10500,2021-07-06,13:07,Brooklyn,Bedford-Stuyvesant,40.68758163570272,-73.94221636244741,Property Crimes,Commercial Burglary,6,0,129,5383 Lexington Ave,Under Investigation
+10501,2023-06-16,02:00,Brooklyn,Bushwick,40.691224956552524,-73.92369608762428,Violent Crimes,Domestic Violence,8,1,0,6762 Central Park West,Unsolved
+10502,2023-12-10,17:49,Queens,Long Island City,40.74630344738455,-73.94782794906546,Property Crimes,Commercial Burglary,4,0,4681,9707 Riverside Dr,Under Investigation
+10503,2022-11-08,19:19,Staten Island,Todt Hill,40.60679766523084,-74.09724028522568,Property Crimes,Graffiti,2,0,6331,7540 Amsterdam Ave,Under Investigation
+10504,2022-08-16,00:29,Manhattan,Greenwich Village,40.7430104739191,-74.00723534834648,Violent Crimes,Kidnapping,7,1,0,8748 Main St,Under Investigation
+10505,2021-03-05,15:01,Bronx,Riverdale,40.88015125749956,-73.90925050571691,Property Crimes,Petty Theft,2,0,11415,3934 Park Ave,Under Investigation
+10506,2021-05-23,03:15,Manhattan,East Village,40.721369645931524,-73.97295930910407,Property Crimes,Vandalism,1,0,310,8904 Avenue B,Suspect Identified
+10507,2023-01-03,18:48,Manhattan,Greenwich Village,40.74258872053611,-74.00056754625521,Property Crimes,Commercial Burglary,4,0,534,5736 West End Ave,Under Investigation
+10508,2021-02-24,00:57,Brooklyn,Park Slope,40.670717435183725,-73.98626446864559,Violent Crimes,Kidnapping,9,1,0,3530 Broadway,Unsolved
+10509,2023-09-12,14:00,Bronx,Mott Haven,40.805245799298525,-73.91683948204334,Property Crimes,Graffiti,2,0,3873,685 West End Ave,Suspect Arrested
+10510,2023-11-27,11:15,Bronx,Mott Haven,40.805326153983124,-73.92069332433378,Property Crimes,Grand Theft,6,0,6296,1321 Central Park West,Closed
+10511,2021-03-15,11:07,Manhattan,Harlem,40.80705248001467,-73.9482290179695,Property Crimes,Commercial Burglary,6,0,649,6044 Avenue A,Closed
+10512,2022-10-03,00:49,Queens,Flushing,40.75902298699069,-73.8281776429207,Violent Crimes,Aggravated Assault,7,1,0,6672 Columbus Ave,Suspect Identified
+10513,2022-11-06,17:06,Queens,Flushing,40.76590326767334,-73.82761907476555,Property Crimes,Auto Theft,3,0,565,4106 Avenue B,Under Investigation
+10514,2022-08-26,16:58,Manhattan,Upper West Side,40.78834624439258,-73.98026874432597,Property Crimes,Arson,6,0,16474,927 Park Ave,Suspect Arrested
+10515,2021-06-24,18:46,Bronx,Riverdale,40.8896709129344,-73.9060801490045,Violent Crimes,Armed Robbery,8,1,0,2759 2nd Ave,Cold Case
+10516,2022-06-29,21:53,Brooklyn,Bushwick,40.685268250657096,-73.91863697248812,Property Crimes,Commercial Burglary,6,0,15121,2450 Riverside Dr,Suspect Identified
+10517,2021-09-23,00:20,Bronx,Pelham Bay,40.85083223640292,-73.82671622281147,Violent Crimes,Kidnapping,6,3,0,3331 Columbus Ave,Under Investigation
+10518,2022-09-27,05:45,Queens,Astoria,40.75896159543898,-73.92925910320184,Property Crimes,Home Burglary,6,0,4720,9367 Madison Ave,Suspect Identified
+10519,2022-11-20,10:50,Bronx,Riverdale,40.88822056939613,-73.90540277394267,Violent Crimes,Kidnapping,8,3,0,8358 2nd Ave,Under Investigation
+10520,2022-12-16,20:27,Staten Island,Todt Hill,40.59856842758606,-74.10876258882051,Property Crimes,Arson,3,0,7582,5039 5th Ave,Suspect Arrested
+10521,2021-02-02,18:53,Brooklyn,DUMBO,40.69869612071096,-73.98194771362972,Property Crimes,Graffiti,5,0,2755,3350 West End Ave,Cold Case
+10522,2021-04-29,06:20,Brooklyn,DUMBO,40.70655099798583,-73.9964892937233,Violent Crimes,Unarmed Robbery,10,1,0,3795 Avenue A,Under Investigation
+10523,2022-06-05,08:31,Manhattan,East Village,40.72553535357475,-73.97976783073649,Property Crimes,Commercial Burglary,3,0,919,4158 Avenue A,Suspect Identified
+10524,2023-07-14,00:01,Brooklyn,Williamsburg,40.71283747489888,-73.94984405844913,Property Crimes,Petty Theft,4,0,1221,2432 Main St,Closed
+10525,2022-08-24,23:11,Staten Island,St. George,40.636614291110405,-74.08582722827907,Violent Crimes,Aggravated Assault,9,1,0,3025 Amsterdam Ave,Under Investigation
+10526,2023-01-07,22:08,Bronx,Fordham,40.863541880721776,-73.88986605174571,Property Crimes,Petty Theft,6,0,1319,5552 Avenue B,Unsolved
+10527,2021-10-24,16:03,Brooklyn,Bedford-Stuyvesant,40.685018119918105,-73.93991047329628,Property Crimes,Arson,7,0,3433,1489 5th Ave,Under Investigation
+10528,2021-10-02,16:04,Queens,Long Island City,40.7544557104043,-73.95577120494886,Violent Crimes,Unarmed Robbery,5,1,0,3437 Madison Ave,Under Investigation
+10529,2022-07-13,04:54,Staten Island,Todt Hill,40.59958637536209,-74.10493600770148,Violent Crimes,Aggravated Assault,10,1,0,7197 2nd Ave,Closed
+10530,2023-08-28,10:03,Staten Island,Todt Hill,40.60534872302649,-74.09367488012596,Violent Crimes,Aggravated Assault,10,1,0,5006 Avenue B,Unsolved
+10531,2023-03-26,18:34,Staten Island,Great Kills,40.54648219298768,-74.14651322365742,Violent Crimes,Gang Violence,9,1,0,3778 Avenue A,Unsolved
+10532,2023-12-29,20:48,Staten Island,St. George,40.6401832133312,-74.08471161262023,Violent Crimes,Domestic Violence,6,1,0,9241 Avenue A,Suspect Identified
+10533,2021-06-28,09:59,Queens,Jackson Heights,40.76348381749328,-73.88916265350562,Property Crimes,Auto Theft,3,0,1953,4197 Amsterdam Ave,Under Investigation
+10534,2022-05-18,10:03,Staten Island,Todt Hill,40.59603312804454,-74.10640007388336,Violent Crimes,Homicide,8,1,0,1925 Park Ave,Under Investigation
+10535,2023-08-21,07:41,Bronx,Mott Haven,40.809481195818165,-73.93154774872815,Violent Crimes,Armed Robbery,6,2,0,8530 Riverside Dr,Unsolved
+10536,2022-01-24,07:28,Manhattan,Upper West Side,40.78167424163821,-73.9745997617079,Violent Crimes,Domestic Violence,6,3,0,980 Riverside Dr,Cold Case
+10537,2021-09-22,12:07,Brooklyn,Flatbush,40.643917547380944,-73.96104084426896,Violent Crimes,Kidnapping,7,1,0,4080 Park Ave,Suspect Identified
+10538,2022-02-07,14:21,Brooklyn,Brooklyn Heights,40.69246003826116,-73.99021026089603,Violent Crimes,Aggravated Assault,5,7,0,3837 1st Ave,Suspect Arrested
+10539,2022-07-07,13:33,Queens,Long Island City,40.74793678379699,-73.9473443316526,Property Crimes,Grand Theft,6,0,6558,5600 West End Ave,Unsolved
+10540,2021-10-10,10:39,Bronx,Fordham,40.86070411224568,-73.89959715314798,Violent Crimes,Simple Assault,6,1,0,6260 Avenue B,Suspect Arrested
+10541,2021-03-28,11:40,Bronx,Pelham Bay,40.85795250569011,-73.83959394115284,Violent Crimes,Gang Violence,10,1,0,9650 Amsterdam Ave,Under Investigation
+10542,2021-08-17,13:37,Staten Island,Todt Hill,40.595518673773185,-74.10278344631054,Violent Crimes,Unarmed Robbery,10,1,0,958 Avenue A,Cold Case
+10543,2022-01-24,01:44,Brooklyn,Bedford-Stuyvesant,40.68620741872516,-73.93667673342209,Violent Crimes,Aggravated Assault,6,1,0,1322 Columbus Ave,Under Investigation
+10544,2023-11-14,01:27,Bronx,Fordham,40.86469823448975,-73.88489100078421,Property Crimes,Vandalism,4,0,13098,76 5th Ave,Unsolved
+10545,2021-04-05,04:55,Brooklyn,Bedford-Stuyvesant,40.68189284163711,-73.94381368168382,Property Crimes,Vandalism,6,0,826,5991 Amsterdam Ave,Suspect Arrested
+10546,2021-02-28,23:43,Queens,Flushing,40.775249670043166,-73.82325998064151,Violent Crimes,Unarmed Robbery,10,1,0,2282 Central Park West,Suspect Arrested
+10547,2022-04-17,01:46,Manhattan,Greenwich Village,40.74074066588753,-73.99718084045456,Violent Crimes,Armed Robbery,9,1,0,3217 Avenue A,Under Investigation
+10548,2023-12-08,12:26,Staten Island,Todt Hill,40.59328248864232,-74.09839459159006,Property Crimes,Petty Theft,4,0,683,420 Riverside Dr,Under Investigation
+10549,2023-12-11,08:47,Brooklyn,Brooklyn Heights,40.70232135260505,-73.98795943824659,Property Crimes,Grand Theft,1,0,6167,826 West End Ave,Under Investigation
+10550,2022-12-28,07:25,Bronx,Riverdale,40.880723207610494,-73.91613743288109,Violent Crimes,Gang Violence,9,1,0,8585 1st Ave,Under Investigation
+10551,2022-08-16,02:50,Bronx,Pelham Bay,40.84600272814943,-73.84134714506473,Property Crimes,Commercial Burglary,2,0,13819,5839 Riverside Dr,Under Investigation
+10552,2023-12-11,16:33,Bronx,Fordham,40.86247604481425,-73.89468951378684,Violent Crimes,Gang Violence,10,1,0,3827 Park Ave,Under Investigation
+10553,2022-06-24,02:14,Queens,Jamaica,40.700944050810094,-73.80648811333278,Property Crimes,Carjacking,1,0,3625,282 Avenue A,Under Investigation
+10554,2021-05-24,03:26,Staten Island,Great Kills,40.56278783946429,-74.15106073034188,Property Crimes,Auto Theft,5,0,24241,4892 West End Ave,Suspect Arrested
+10555,2023-10-18,13:41,Staten Island,St. George,40.6517284991549,-74.08212978971285,Property Crimes,Carjacking,2,0,13338,7463 Columbus Ave,Under Investigation
+10556,2022-06-02,01:10,Queens,Long Island City,40.73702732795771,-73.94215100583017,Property Crimes,Commercial Burglary,7,0,2395,8867 West End Ave,Cold Case
+10557,2022-05-28,07:30,Queens,Long Island City,40.7522594864089,-73.94113886619785,Violent Crimes,Homicide,6,2,0,3728 Central Park West,Unsolved
+10558,2021-05-03,09:09,Queens,Flushing,40.77120060872614,-73.83570641721803,Violent Crimes,Simple Assault,8,1,0,6004 Avenue B,Suspect Identified
+10559,2022-01-24,23:03,Bronx,Riverdale,40.88805960357531,-73.91872950970027,Property Crimes,Graffiti,2,0,5936,3119 Avenue B,Suspect Arrested
+10560,2022-02-19,10:57,Brooklyn,Bushwick,40.69132199453076,-73.9117877959828,Violent Crimes,Homicide,10,1,0,9136 2nd Ave,Under Investigation
+10561,2022-06-23,15:05,Queens,Jackson Heights,40.76204961127269,-73.89034950654516,Violent Crimes,Gang Violence,6,2,0,8745 Broadway,Suspect Arrested
+10562,2022-06-27,22:52,Brooklyn,Bushwick,40.70285514381027,-73.92155876162363,Violent Crimes,Unarmed Robbery,10,1,0,3753 Central Park West,Suspect Identified
+10563,2023-03-23,09:44,Queens,Forest Hills,40.72379619601806,-73.85230322745478,Property Crimes,Home Burglary,6,0,3491,4121 Madison Ave,Unsolved
+10564,2023-02-18,16:16,Brooklyn,Williamsburg,40.70607326055545,-73.96417252015675,Property Crimes,Graffiti,1,0,2290,3227 1st Ave,Closed
+10565,2022-05-03,18:15,Staten Island,Great Kills,40.54576344618771,-74.160483761861,Property Crimes,Carjacking,6,0,726,6216 Broadway,Closed
+10566,2024-01-22,18:52,Brooklyn,Bedford-Stuyvesant,40.69646230223178,-73.9408094092821,Violent Crimes,Armed Robbery,6,5,0,3191 Amsterdam Ave,Under Investigation
+10567,2022-08-07,13:51,Queens,Jackson Heights,40.75424995756661,-73.8867636773383,Property Crimes,Carjacking,5,0,3527,1008 5th Ave,Suspect Arrested
+10568,2022-03-10,16:08,Brooklyn,Brooklyn Heights,40.69459023377266,-74.00148670631476,Violent Crimes,Armed Robbery,5,1,0,5725 1st Ave,Under Investigation
+10569,2023-10-02,05:08,Brooklyn,DUMBO,40.697520763650196,-73.98600824090204,Property Crimes,Graffiti,1,0,5251,6729 3rd Ave,Unsolved
+10570,2022-08-15,04:54,Staten Island,Great Kills,40.547440497062574,-74.15977300745779,Violent Crimes,Kidnapping,6,2,0,5967 Riverside Dr,Suspect Arrested
+10571,2023-12-06,18:03,Brooklyn,Brooklyn Heights,40.694996008475385,-74.00243672408989,Property Crimes,Carjacking,6,0,26359,3726 Park Ave,Suspect Identified
+10572,2023-12-01,12:50,Staten Island,Todt Hill,40.59265561121993,-74.09959929542282,Violent Crimes,Homicide,9,6,0,8745 Riverside Dr,Suspect Identified
+10573,2022-06-05,16:37,Bronx,Mott Haven,40.80388360208432,-73.93005501262626,Violent Crimes,Aggravated Assault,6,1,0,3566 1st Ave,Under Investigation
+10574,2021-08-04,02:45,Queens,Astoria,40.760465502951355,-73.93147908377979,Property Crimes,Carjacking,1,0,5890,5178 Broadway,Under Investigation
+10575,2021-06-02,08:49,Manhattan,Upper West Side,40.7782458359626,-73.97521155743699,Violent Crimes,Simple Assault,8,8,0,5872 Madison Ave,Closed
+10576,2023-07-09,00:45,Queens,Forest Hills,40.724779405390116,-73.84349561123538,Property Crimes,Petty Theft,5,0,1828,8473 Amsterdam Ave,Suspect Identified
+10577,2022-05-21,00:51,Brooklyn,DUMBO,40.70567791672583,-73.98785917072176,Violent Crimes,Domestic Violence,10,1,0,759 Broadway,Closed
+10578,2023-07-10,02:14,Manhattan,Harlem,40.804214207534805,-73.9387679156952,Violent Crimes,Aggravated Assault,6,1,0,3602 Central Park West,Suspect Identified
+10579,2021-12-26,10:30,Brooklyn,Crown Heights,40.66329245023642,-73.94484481298245,Property Crimes,Auto Theft,3,0,2673,637 West End Ave,Suspect Arrested
+10580,2022-04-28,02:53,Brooklyn,DUMBO,40.70975075791134,-73.98372771238877,Property Crimes,Grand Theft,7,0,7333,1659 Madison Ave,Under Investigation
+10581,2022-05-15,20:36,Manhattan,Harlem,40.80182062528857,-73.9481769200364,Violent Crimes,Gang Violence,9,1,0,1405 Riverside Dr,Unsolved
+10582,2023-05-17,01:48,Brooklyn,Bushwick,40.684783845536465,-73.9261037358251,Violent Crimes,Kidnapping,5,2,0,1785 Central Park West,Under Investigation
+10583,2021-04-24,07:35,Bronx,Riverdale,40.88274219411458,-73.91149379737095,Violent Crimes,Armed Robbery,6,1,0,6422 5th Ave,Unsolved
+10584,2021-08-23,23:19,Queens,Astoria,40.75464241549288,-73.92867597084802,Property Crimes,Home Burglary,5,0,18622,4071 Central Park West,Under Investigation
+10585,2021-01-22,21:29,Staten Island,Todt Hill,40.607530742237664,-74.09430846711358,Property Crimes,Home Burglary,6,0,3345,8820 1st Ave,Unsolved
+10586,2022-03-11,20:11,Manhattan,Upper East Side,40.765694723973546,-73.95554081022053,Property Crimes,Carjacking,2,0,3029,5403 Central Park West,Suspect Identified
+10587,2023-08-01,22:43,Staten Island,St. George,40.651587141654794,-74.08433834838432,Violent Crimes,Domestic Violence,8,1,0,1150 2nd Ave,Under Investigation
+10588,2022-10-30,15:37,Manhattan,Chelsea,40.73950097329388,-74.0049064814622,Violent Crimes,Homicide,9,2,0,328 Avenue A,Unsolved
+10589,2021-03-14,03:03,Brooklyn,Crown Heights,40.66892036258738,-73.94468223429709,Property Crimes,Home Burglary,3,0,2508,5688 Avenue A,Under Investigation
+10590,2021-03-17,10:13,Bronx,Pelham Bay,40.847988935368114,-73.82739966912327,Property Crimes,Vandalism,6,0,11132,5576 Avenue B,Unsolved
+10591,2023-12-11,19:16,Queens,Long Island City,40.75380669373008,-73.94276193227489,Violent Crimes,Simple Assault,9,1,0,100 Lexington Ave,Under Investigation
+10592,2021-05-21,19:57,Manhattan,Harlem,40.81536269412173,-73.9477479375189,Property Crimes,Petty Theft,4,0,1469,8650 2nd Ave,Suspect Identified
+10593,2023-04-12,05:05,Brooklyn,DUMBO,40.71001743158852,-73.99763147302075,Violent Crimes,Simple Assault,8,3,0,5695 3rd Ave,Closed
+10594,2022-06-21,13:29,Bronx,Mott Haven,40.808329549292495,-73.92015597046384,Violent Crimes,Armed Robbery,5,1,0,595 Broadway,Unsolved
+10595,2022-08-31,07:12,Queens,Astoria,40.77230235481413,-73.92076660635666,Violent Crimes,Homicide,6,1,0,9912 Park Ave,Closed
+10596,2021-08-26,03:32,Manhattan,Upper East Side,40.76483304081121,-73.9561318395611,Violent Crimes,Homicide,5,1,0,9511 Broadway,Under Investigation
+10597,2023-04-18,11:43,Queens,Flushing,40.77014867537443,-73.83155556158374,Violent Crimes,Simple Assault,10,1,0,9238 Lexington Ave,Under Investigation
+10598,2022-03-10,01:11,Staten Island,St. George,40.63553345801205,-74.08460415967909,Violent Crimes,Unarmed Robbery,10,1,0,6952 Madison Ave,Under Investigation
+10599,2023-05-05,06:52,Manhattan,Chelsea,40.73794168671997,-74.0099748654447,Violent Crimes,Armed Robbery,9,1,0,2497 Park Ave,Under Investigation
+10600,2023-08-02,05:12,Brooklyn,Park Slope,40.68013002796599,-73.9766498328108,Property Crimes,Carjacking,6,0,2178,2128 1st Ave,Unsolved
+10601,2022-02-24,10:24,Brooklyn,Flatbush,40.636830711625755,-73.96470593540508,Violent Crimes,Aggravated Assault,5,2,0,6759 Broadway,Suspect Identified
+10602,2023-11-30,19:54,Queens,Jamaica,40.705227412221404,-73.81479608864265,Property Crimes,Vandalism,1,0,956,4060 Lexington Ave,Cold Case
+10603,2021-02-25,18:06,Queens,Jackson Heights,40.74756791299427,-73.87979394560597,Property Crimes,Arson,2,0,7227,7754 Columbus Ave,Under Investigation
+10604,2023-09-05,05:25,Queens,Flushing,40.7607009285665,-73.84138110077939,Property Crimes,Vandalism,3,0,428,7489 West End Ave,Under Investigation
+10605,2021-05-27,05:16,Staten Island,Todt Hill,40.610857200696906,-74.10759110445045,Property Crimes,Vandalism,4,0,7331,5379 Avenue A,Closed
+10606,2021-06-25,17:48,Staten Island,Great Kills,40.556893271377085,-74.15336120720694,Violent Crimes,Armed Robbery,9,1,0,4024 5th Ave,Suspect Arrested
+10607,2022-06-14,20:05,Bronx,Fordham,40.85382772836319,-73.88849974063922,Property Crimes,Home Burglary,6,0,7450,6621 Riverside Dr,Suspect Arrested
+10608,2023-08-15,14:26,Brooklyn,Crown Heights,40.67227808507083,-73.94159395733502,Violent Crimes,Simple Assault,8,1,0,333 Avenue B,Unsolved
+10609,2021-05-10,13:35,Queens,Forest Hills,40.72786977555189,-73.8398257161669,Property Crimes,Carjacking,6,0,1732,321 1st Ave,Under Investigation
+10610,2023-07-31,16:22,Bronx,Riverdale,40.89959940658718,-73.91016236820727,Property Crimes,Commercial Burglary,7,0,4366,8381 2nd Ave,Suspect Identified
+10611,2022-07-02,10:46,Staten Island,Great Kills,40.559361463588594,-74.14476460423819,Violent Crimes,Gang Violence,5,1,0,5437 Central Park West,Suspect Arrested
+10612,2021-07-03,04:35,Bronx,Pelham Bay,40.84136191492732,-73.83633464988011,Violent Crimes,Kidnapping,8,3,0,9880 Avenue B,Unsolved
+10613,2021-05-15,16:08,Queens,Long Island City,40.73919231223688,-73.95105665952325,Violent Crimes,Simple Assault,10,1,0,8681 West End Ave,Unsolved
+10614,2022-06-20,04:12,Queens,Astoria,40.763188099793894,-73.92124120835011,Violent Crimes,Unarmed Robbery,8,4,0,2933 3rd Ave,Unsolved
+10615,2022-05-28,00:06,Brooklyn,Park Slope,40.66581385423665,-73.98896997247398,Violent Crimes,Aggravated Assault,10,1,0,86 Park Ave,Suspect Arrested
+10616,2022-07-21,19:57,Brooklyn,Flatbush,40.64863849800419,-73.9587837837469,Property Crimes,Carjacking,2,0,1683,2537 Park Ave,Unsolved
+10617,2022-01-22,10:54,Brooklyn,Flatbush,40.647218938779375,-73.95447260007272,Property Crimes,Commercial Burglary,5,0,9370,6056 Avenue A,Unsolved
+10618,2023-04-17,00:30,Staten Island,Great Kills,40.562778530672794,-74.15595517959653,Violent Crimes,Simple Assault,10,2,0,5852 Lexington Ave,Suspect Identified
+10619,2022-02-14,18:46,Staten Island,Great Kills,40.55361078994548,-74.1441600289422,Violent Crimes,Kidnapping,9,1,0,5041 Central Park West,Suspect Arrested
+10620,2021-02-28,18:04,Brooklyn,DUMBO,40.708728948929995,-73.98527676324638,Property Crimes,Arson,7,0,976,1127 Riverside Dr,Closed
+10621,2022-05-07,16:17,Brooklyn,Park Slope,40.67190053837794,-73.9717066052095,Violent Crimes,Gang Violence,6,4,0,8461 Avenue B,Under Investigation
+10622,2022-10-20,01:25,Staten Island,Todt Hill,40.59236347471594,-74.11020370368541,Property Crimes,Carjacking,4,0,706,1384 Park Ave,Under Investigation
+10623,2022-07-20,17:11,Staten Island,Great Kills,40.55891959819971,-74.14464429340286,Property Crimes,Auto Theft,3,0,1200,422 Riverside Dr,Under Investigation
+10624,2023-07-22,10:32,Manhattan,Upper East Side,40.773617053859034,-73.94968593943977,Property Crimes,Home Burglary,2,0,6598,6855 Park Ave,Suspect Identified
+10625,2023-09-22,18:30,Queens,Astoria,40.765244744109836,-73.92169304619082,Property Crimes,Grand Theft,4,0,3550,5908 5th Ave,Suspect Arrested
+10626,2021-09-02,15:38,Brooklyn,Crown Heights,40.66535096902638,-73.94089956014282,Violent Crimes,Aggravated Assault,9,1,0,132 Broadway,Unsolved
+10627,2023-11-18,23:21,Bronx,Fordham,40.86886645831722,-73.88807417292041,Property Crimes,Commercial Burglary,3,0,7159,1216 Madison Ave,Suspect Identified
+10628,2023-03-29,08:41,Queens,Long Island City,40.73790143269909,-73.9492688505116,Property Crimes,Home Burglary,5,0,46,826 Avenue B,Suspect Identified
+10629,2021-09-12,22:58,Bronx,Pelham Bay,40.84373357729043,-73.82857076569775,Property Crimes,Arson,3,0,24024,594 3rd Ave,Suspect Identified
+10630,2023-04-27,15:32,Manhattan,Harlem,40.80358356199174,-73.94847011368277,Property Crimes,Commercial Burglary,3,0,8048,6548 Main St,Cold Case
+10631,2021-04-17,15:55,Queens,Forest Hills,40.71258071269258,-73.84469830101395,Property Crimes,Home Burglary,3,0,6603,4193 West End Ave,Under Investigation
+10632,2022-03-20,14:26,Bronx,Mott Haven,40.81141970900521,-73.92913950530769,Violent Crimes,Kidnapping,7,1,0,6751 Madison Ave,Under Investigation
+10633,2021-09-05,23:06,Brooklyn,Bedford-Stuyvesant,40.692875835689705,-73.94071546971736,Property Crimes,Vandalism,7,0,26,3259 West End Ave,Suspect Identified
+10634,2022-10-31,19:41,Brooklyn,Park Slope,40.67621981520056,-73.9906937729012,Property Crimes,Petty Theft,1,0,6846,4666 Amsterdam Ave,Closed
+10635,2021-05-16,19:52,Queens,Jackson Heights,40.7496496112033,-73.8738385303976,Property Crimes,Auto Theft,5,0,2293,8374 Madison Ave,Under Investigation
+10636,2022-05-11,12:06,Bronx,Pelham Bay,40.84533863232676,-73.84012223899336,Property Crimes,Auto Theft,1,0,1823,5846 5th Ave,Under Investigation
+10637,2021-01-27,04:45,Queens,Flushing,40.77293301523656,-73.82187331324745,Violent Crimes,Aggravated Assault,10,1,0,5732 Amsterdam Ave,Cold Case
+10638,2022-10-25,15:23,Bronx,Mott Haven,40.808072212619095,-73.91845858123594,Violent Crimes,Homicide,9,3,0,6305 Amsterdam Ave,Under Investigation
+10639,2022-02-19,15:19,Brooklyn,Brooklyn Heights,40.697660886683735,-73.99576948603645,Property Crimes,Vandalism,4,0,2660,1936 Main St,Under Investigation
+10640,2023-04-13,09:21,Brooklyn,Park Slope,40.67491236292994,-73.9913356347279,Violent Crimes,Domestic Violence,5,1,0,6893 Lexington Ave,Suspect Arrested
+10641,2021-04-06,09:32,Staten Island,Todt Hill,40.59860986020883,-74.09761605337445,Violent Crimes,Kidnapping,7,1,0,6092 2nd Ave,Suspect Identified
+10642,2021-01-23,13:12,Queens,Jamaica,40.703764045338964,-73.80888054220227,Violent Crimes,Unarmed Robbery,9,1,0,9716 Columbus Ave,Under Investigation
+10643,2021-06-03,09:11,Brooklyn,Park Slope,40.66229707188966,-73.97980032425143,Violent Crimes,Aggravated Assault,10,1,0,8847 Avenue A,Suspect Identified
+10644,2021-06-25,17:26,Manhattan,East Village,40.72771320188833,-73.97943024666807,Property Crimes,Grand Theft,4,0,5642,5825 Amsterdam Ave,Suspect Identified
+10645,2022-03-27,18:07,Staten Island,Todt Hill,40.60759977999362,-74.10810358559743,Property Crimes,Arson,3,0,8716,2888 Avenue B,Suspect Identified
+10646,2022-09-24,21:18,Queens,Astoria,40.76436511364527,-73.93195883441732,Property Crimes,Carjacking,6,0,301,1783 Columbus Ave,Unsolved
+10647,2022-01-03,12:22,Manhattan,East Village,40.723184766373926,-73.97580206045777,Property Crimes,Grand Theft,7,0,6149,6674 2nd Ave,Under Investigation
+10648,2021-10-08,20:42,Manhattan,Greenwich Village,40.739672299293446,-73.99725461887117,Property Crimes,Graffiti,5,0,2900,7405 Avenue A,Suspect Identified
+10649,2021-03-06,04:04,Staten Island,St. George,40.63764905053413,-74.07973614492782,Property Crimes,Arson,6,0,2845,6307 2nd Ave,Suspect Identified

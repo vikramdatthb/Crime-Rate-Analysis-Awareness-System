@@ -1,0 +1,263 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Crime Rate Analysis & Awareness System</title>
+    
+    <!-- Leaflet CSS -->
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.7.1/dist/leaflet.css" />
+    
+    <!-- Leaflet MarkerCluster CSS -->
+    <link rel="stylesheet" href="https://unpkg.com/leaflet.markercluster@1.4.1/dist/MarkerCluster.css" />
+    <link rel="stylesheet" href="https://unpkg.com/leaflet.markercluster@1.4.1/dist/MarkerCluster.Default.css" />
+    
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" />
+    
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
+    
+    <style>
+        /* Custom styles for cluster markers */
+        .custom-cluster-icon {
+            background: none;
+            border: none;
+        }
+        
+        .cluster-icon {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            width: 40px;
+            height: 40px;
+            background-color: rgba(58, 12, 163, 0.8);
+            color: white;
+            border-radius: 50%;
+            font-weight: bold;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+        }
+        
+        .cluster-small {
+            font-size: 14px;
+        }
+        
+        .cluster-medium {
+            font-size: 16px;
+            width: 45px;
+            height: 45px;
+            background-color: rgba(247, 37, 133, 0.8);
+        }
+        
+        .cluster-large {
+            font-size: 18px;
+            width: 50px;
+            height: 50px;
+            background-color: rgba(230, 57, 70, 0.8);
+        }
+    </style>
+</head>
+<body>
+    <!-- Loading Spinner -->
+    <div id="loading-spinner" class="loading-spinner">
+        <div class="spinner"></div>
+    </div>
+    
+    <!-- Header -->
+    <header>
+        <div class="container">
+            <div class="logo">
+                <i class="fas fa-shield-alt"></i>
+                <h1><span>Crime</span> Awareness</h1>
+            </div>
+            <div class="header-text">
+                <p>Analyze crime patterns and stay informed about high-risk areas</p>
+            </div>
+        </div>
+    </header>
+    
+    <!-- Main Content -->
+    <div class="container">
+        <div class="main-content">
+            <!-- Sidebar -->
+            <div class="sidebar">
+                <!-- Search Box -->
+                <div class="card search-box">
+                    <h2>Route Safety Analysis</h2>
+                    <div class="input-group">
+                        <label for="from-location">From:</label>
+                        <input type="text" id="from-location" placeholder="Enter starting location">
+                    </div>
+                    <div class="input-group">
+                        <label for="to-location">To:</label>
+                        <input type="text" id="to-location" placeholder="Enter destination">
+                    </div>
+                    <button id="analyze-btn"><i class="fas fa-search"></i> Analyze Route</button>
+                </div>
+                
+                <!-- Results Box -->
+                <div class="card results-box" id="results-container">
+                    <h2>Safety Analysis Results</h2>
+                    <div class="safety-score">
+                        <h3>Route Safety Score</h3>
+                        <div class="score-display">
+                            <div id="safety-score-value">95</div>
+                            <div id="safety-level" class="high-safety">High Safety</div>
+                        </div>
+                    </div>
+                    
+                    <div class="crime-stats">
+                        <h3>Crime Statistics</h3>
+                        <div class="stat-item">
+                            <span class="stat-label">Crimes Near Route:</span>
+                            <span class="stat-value" id="crime-count">0</span>
+                        </div>
+                        <div class="stat-item">
+                            <span class="stat-label">Violent Crimes:</span>
+                            <span class="stat-value" id="violent-count">0</span>
+                        </div>
+                        <div class="stat-item">
+                            <span class="stat-label">Property Crimes:</span>
+                            <span class="stat-value" id="property-count">0</span>
+                        </div>
+                        <div class="stat-item">
+                            <span class="stat-label">Average Severity:</span>
+                            <span class="stat-value" id="avg-severity">0</span>
+                        </div>
+                        <div class="stat-item">
+                            <span class="stat-label">Total Victims:</span>
+                            <span class="stat-value" id="total-victims">0</span>
+                        </div>
+                        <div class="stat-item">
+                            <span class="stat-label">Property Damage:</span>
+                            <span class="stat-value" id="total-damage">$0</span>
+                        </div>
+                    </div>
+                    
+                    <div class="crime-types">
+                        <h3>Common Crime Types</h3>
+                        <ul id="crime-types-list">
+                            <!-- Will be populated by JavaScript -->
+                        </ul>
+                    </div>
+                </div>
+                
+                <!-- Data Summary -->
+                <div class="card">
+                    <h2>Dataset Overview</h2>
+                    <div class="stat-item">
+                        <span class="stat-label">Total Crimes:</span>
+                        <span class="stat-value" id="total-crimes">Loading...</span>
+                    </div>
+                    <div class="stat-item">
+                        <span class="stat-label">Violent Crimes:</span>
+                        <span class="stat-value" id="violent-crimes">Loading...</span>
+                    </div>
+                    <div class="stat-item">
+                        <span class="stat-label">Property Crimes:</span>
+                        <span class="stat-value" id="property-crimes">Loading...</span>
+                    </div>
+                </div>
+            </div>
+            
+            <!-- Map Container -->
+            <div class="map-container">
+                <div id="map"></div>
+                
+                <!-- Map Legend -->
+                <div class="map-legend">
+                    <div class="legend-title">Crime Types</div>
+                    <div class="legend-item">
+                        <div class="color-box violent"></div>
+                        <span>Violent Crimes</span>
+                    </div>
+                    <div class="legend-item">
+                        <div class="color-box property"></div>
+                        <span>Property Crimes</span>
+                    </div>
+                    <div class="legend-title mt-3">Severity Scale</div>
+                    <div class="legend-item">
+                        <span>1-3: Low</span>
+                    </div>
+                    <div class="legend-item">
+                        <span>4-6: Medium</span>
+                    </div>
+                    <div class="legend-item">
+                        <span>7-10: High</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        <!-- Dashboard Section -->
+        <div class="dashboard">
+            <h2>Crime Analysis Dashboard</h2>
+            
+            <div class="dashboard-grid">
+                <!-- Time Series Chart -->
+                <div class="dashboard-card">
+                    <h3>Crime Trends Over Time</h3>
+                    <div class="chart-container">
+                        <canvas id="time-series-chart"></canvas>
+                    </div>
+                </div>
+                
+                <!-- Crime Type Chart -->
+                <div class="dashboard-card">
+                    <h3>Most Common Crime Types</h3>
+                    <div class="chart-container">
+                        <canvas id="crime-type-chart"></canvas>
+                    </div>
+                </div>
+                
+                <!-- Time of Day Chart -->
+                <div class="dashboard-card">
+                    <h3>Crimes by Time of Day</h3>
+                    <div class="chart-container">
+                        <canvas id="time-of-day-chart"></canvas>
+                    </div>
+                </div>
+                
+                <!-- Borough Chart -->
+                <div class="dashboard-card">
+                    <h3>Crimes by Borough</h3>
+                    <div class="chart-container">
+                        <canvas id="borough-chart"></canvas>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <div class="footer-text">
+                <p>&copy; 2025 Crime Rate Analysis & Awareness System | Data Analysis Project</p>
+            </div>
+            <div class="footer-links">
+                <a href="#"><i class="fas fa-info-circle"></i> About</a>
+                <a href="#"><i class="fas fa-database"></i> Data Sources</a>
+                <a href="#"><i class="fas fa-question-circle"></i> Help</a>
+            </div>
+        </div>
+    </footer>
+    
+    <!-- Leaflet JS -->
+    <script src="https://unpkg.com/leaflet@1.7.1/dist/leaflet.js"></script>
+    
+    <!-- Leaflet MarkerCluster JS -->
+    <script src="https://unpkg.com/leaflet.markercluster@1.4.1/dist/leaflet.markercluster.js"></script>
+    
+    <!-- Chart.js -->
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    
+    <!-- Custom JS -->
+    <script src="{{ url_for('static', filename='js/main.js') }}"></script>
+</body>
+</html>
