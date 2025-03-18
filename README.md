@@ -108,9 +108,6 @@ The project includes a comprehensive data visualization system:
   - Day of week patterns
 
 ### 4. Route Safety Analysis
-
-![Route Safety](https://example.com/route-safety.jpg)
-
 The route safety analysis feature provides:
 
 - **Address Geocoding**: Converts user-entered locations to geographic coordinates
@@ -142,9 +139,6 @@ The route safety analysis feature provides:
 - **Choropleth Maps**: Display district-level statistics
 
 ### Web Development Implementation
-
-![Web Stack](https://example.com/web-stack.jpg)
-
 While data analysis is the primary focus of this project, a lightweight web application was developed to make the insights accessible and interactive:
 
 - **Flask Framework**: Powers the main application backend, handling data requests and API endpoints
